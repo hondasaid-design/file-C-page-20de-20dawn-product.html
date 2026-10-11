@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouCan — Build Your Online Store. Sell Without Limits.</title>
+  <meta name="description" content="Everything you need to launch, manage, and grow your online business — all in one powerful e-commerce platform. No technical expertise required.">
+  <meta name="keywords" content="e-commerce platform, build online store, start selling online, YouCan, online business builder, ecommerce checkout, global payments">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23090D10'/><path d='M8 10L16 6L24 10V22L16 26L8 22V10Z' stroke='%2300D084' stroke-width='2.5' fill='none'/><path d='M16 12V20M12 16L16 12L20 16' stroke='%2300D084' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar" id="announcement-bar">
+    <div class="container announcement-content">
+      <span class="announcement-pill">New</span>
+      <span class="announcement-text">Global 1-Click Checkout 2.0 & Multi-Currency Engine is now live</span>
+      <a href="#features" class="announcement-link">Explore What's New <span class="arrow">→</span></a>
+    </div>
+  </div>
+
+  <!-- Sticky Header Navigation -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="container navbar-container">
+      <a href="#" class="brand-logo" aria-label="YouCan Home">
+        <div class="logo-mark">
+          <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="36" height="36" rx="10" fill="#0E161B"/>
+            <path d="M10 12L18 7L26 12V24L18 29L10 24V12Z" stroke="url(#logo-grad)" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M18 13V23M13.5 17L18 12.5L22.5 17" stroke="#00D084" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="logo-grad" x1="10" y1="7" x2="26" y2="29" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#00D084"/>
+                <stop offset="1" stop-color="#05A66B"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="brand-name">
+          <span>You</span><span class="brand-accent">Can</span>
+        </div>
+      </a>
+
+      <!-- Center Desktop Navigation -->
+      <nav class="nav-links" id="desktop-nav" aria-label="Main Navigation">
+        <a href="#features" class="nav-item">Features</a>
+        <a href="#solutions" class="nav-item">Solutions</a>
+        <a href="#how-it-works" class="nav-item">How It Works</a>
+        <a href="#dashboard-showcase" class="nav-item">Dashboard</a>
+        <a href="#pricing" class="nav-item">Pricing</a>
+        <a href="#resources" class="nav-item">Resources</a>
+      </nav>
+
+      <!-- Right Nav Actions -->
+      <div class="nav-actions">
+        <button type="button" class="btn-ghost" id="nav-login-btn">Log in</button>
+        <button type="button" class="btn-primary" id="nav-cta-btn">
+          <span>Start Selling</span>
+          <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="mobile-toggle-btn" id="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <div class="mobile-drawer-content">
+        <nav class="mobile-nav-links">
+          <a href="#features" class="mobile-nav-item">Features</a>
+          <a href="#solutions" class="mobile-nav-item">Solutions</a>
+          <a href="#how-it-works" class="mobile-nav-item">How It Works</a>
+          <a href="#dashboard-showcase" class="mobile-nav-item">Dashboard</a>
+          <a href="#pricing" class="mobile-nav-item">Pricing</a>
+          <a href="#resources" class="mobile-nav-item">Resources</a>
+        </nav>
+        <div class="mobile-drawer-actions">
+          <button type="button" class="btn-ghost w-full" id="mobile-login-btn">Log in</button>
+          <button type="button" class="btn-primary w-full" id="mobile-cta-btn">
+            <span>Start Selling Now</span>
+            <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- 5. HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="hero-grid-pattern"></div>
+      
+      <div class="container hero-container">
+        <!-- Hero Left Column -->
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <span class="hero-badge">
+              <span class="badge-dot"></span>
+              The simple, powerful platform for modern commerce
+            </span>
+          </div>
+          
+          <h1 class="hero-title">
+            Build Your Online Store. <br>
+            <span class="text-gradient">Sell Without Limits.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Everything you need to launch, manage, and grow your online business — all in one powerful platform.
+          </p>
+
+          <div class="hero-cta-group">
+            <button type="button" class="btn-primary btn-lg" id="hero-primary-cta">
+              <span>Start Selling Now</span>
+              <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+            <a href="#dashboard-showcase" class="btn-secondary btn-lg" id="hero-secondary-cta">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="10 8 16 12 10 16 10 8" fill="currentColor"></polygon>
+              </svg>
+              <span>Explore YouCan</span>
+            </a>
+          </div>
+
+          <div class="hero-guarantee">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00D084" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>No complicated setup. No technical expertise required.</span>
+          </div>
+
+          <!-- Trust Indicator with real avatar images -->
+          <div class="hero-social-proof">
+            <div class="avatar-stack">
+              <img src="assets/images/founder-sarah.jpg" alt="Sarah Lin, YouCan Merchant" class="avatar-img">
+              <img src="assets/images/founder-marcus.jpg" alt="Marcus Vance, YouCan Merchant" class="avatar-img">
+              <img src="assets/images/founder-elena.jpg" alt="Elena Rostova, YouCan Merchant" class="avatar-img">
+              <div class="avatar-badge">+50k</div>
+            </div>
+            <div class="social-proof-text">
+              <div class="stars-row">
+                ★★★★★ <span class="rating-num">4.9/5</span>
+              </div>
+              <p>Trusted by entrepreneurs building the next generation of online businesses.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. HERO VISUAL (Interactive Dashboard Mockup + Floating Cards) -->
+        <div class="hero-visual-column">
+          <div class="hero-mockup-wrapper" id="hero-mockup">
+            
+            <!-- Floating Card 1: Revenue -->
+            <div class="floating-card float-card-1" id="float-card-revenue">
+              <div class="float-icon-wrap bg-green-subtle">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00D084" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                  <polyline points="17 6 23 6 23 12"></polyline>
+                </svg>
+              </div>
+              <div class="float-content">
+                <span class="float-label">Monthly Growth</span>
+                <span class="float-val text-green">+24.8% Revenue</span>
+              </div>
+            </div>
+
+            <!-- Floating Card 2: New Order -->
+            <div class="floating-card float-card-2" id="float-card-order">
+              <div class="float-icon-wrap bg-blue-subtle">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+              </div>
+              <div class="float-content">
+                <div class="float-tag-row">
+                  <span class="float-label">New Order #4821</span>
+                  <span class="live-pulse">Just now</span>
+                </div>
+                <span class="float-val">$189.00 · Nike Air Zoom</span>
+              </div>
+            </div>
+
+            <!-- Floating Card 3: Payment Received -->
+            <div class="floating-card float-card-3" id="float-card-payment">
+              <div class="float-icon-wrap bg-emerald-subtle">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                  <line x1="1" y1="10" x2="23" y2="10"></line>
+                </svg>
+              </div>
+              <div class="float-content">
+                <span class="float-label">Payment Received</span>
+                <span class="float-val font-mono">$249.50 · Apple Pay</span>
+              </div>
+            </div>
+
+            <!-- The Main Hero Dashboard Surface -->
+            <div class="hero-dashboard-glass">
+              
+              <!-- Dashboard Window Header -->
+              <div class="dash-window-bar">
+                <div class="dash-window-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="dash-window-search">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  <span>youcan.shop/aura-studio/admin</span>
+                </div>
+                <div class="dash-live-badge">
+                  <span class="live-dot"></span> Live Store
+                </div>
+              </div>
+
+              <!-- Top Stats Row (Specified in prompt: $24,680, 1,284, 4.82%, 8,492) -->
+              <div class="hero-stats-grid">
+                <div class="hero-stat-card">
+                  <span class="stat-title">Revenue</span>
+                  <div class="stat-value-row">
+                    <span class="stat-number" id="hero-stat-rev">$24,680</span>
+                    <span class="stat-delta pos">+24.8%</span>
+                  </div>
+                  <span class="stat-sub">vs last month</span>
+                </div>
+
+                <div class="hero-stat-card">
+                  <span class="stat-title">Orders</span>
+                  <div class="stat-value-row">
+                    <span class="stat-number">1,284</span>
+                    <span class="stat-delta pos">+18.2%</span>
+                  </div>
+                  <span class="stat-sub">142 pending</span>
+                </div>
+
+                <div class="hero-stat-card">
+                  <span class="stat-title">Conversion</span>
+                  <div class="stat-value-row">
+                    <span class="stat-number">4.82%</span>
+                    <span class="stat-delta pos">+1.4%</span>
+                  </div>
+                  <span class="stat-sub">Industry avg: 2.1%</span>
+                </div>
+
+                <div class="hero-stat-card">
+                  <span class="stat-title">Customers</span>
+                  <div class="stat-value-row">
+                    <span class="stat-number">8,492</span>
+                    <span class="stat-delta pos">+320</span>
+                  </div>
+                  <span class="stat-sub">Active shoppers</span>
+                </div>
+              </div>
+
+              <!-- Interactive Chart Area -->
+              <div class="hero-chart-section">
+                <div class="chart-header-row">
+                  <div class="chart-title-group">
+                    <h3 class="chart-title">Revenue Velocity</h3>
+                    <span class="chart-subtitle">Real-time sales performance</span>
+                  </div>
+                  <div class="chart-range-pills">
+                    <button type="button" class="range-pill active" data-range="30d">30D</button>
+                    <button type="button" class="range-pill" data-range="7d">7D</button>
+                    <button type="button" class="range-pill" data-range="24h">24H</button>
+                  </div>
+                </div>
+
+                <!-- High-res interactive SVG Chart -->
+                <div class="chart-svg-container" id="hero-chart-box">
+                  <svg viewBox="0 0 600 170" class="hero-revenue-chart" preserveAspectRatio="none">
+                    <defs>
+                      <linearGradient id="chartGradient" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="#00D084" stop-opacity="0.38"/>
+                        <stop offset="60%" stop-color="#00D084" stop-opacity="0.08"/>
+                        <stop offset="100%" stop-color="#00D084" stop-opacity="0.0"/>
+                      </linearGradient>
+                      <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+                        <stop offset="0%" stop-color="#00D084"/>
+                        <stop offset="70%" stop-color="#05D87A"/>
+                        <stop offset="100%" stop-color="#34D399"/>
+                      </linearGradient>
+                      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00D084" flood-opacity="0.45"/>
+                      </filter>
+                    </defs>
+                    <!-- Background Grid Lines -->
+                    <line x1="0" y1="40" x2="600" y2="40" stroke="rgba(255,255,255,0.05)" stroke-dasharray="4 4"/>
+                    <line x1="0" y1="90" x2="600" y2="90" stroke="rgba(255,255,255,0.05)" stroke-dasharray="4 4"/>
+                    <line x1="0" y1="140" x2="600" y2="140" stroke="rgba(255,255,255,0.05)" stroke-dasharray="4 4"/>
+                    <!-- Area Fill -->
+                    <path class="chart-area" d="M 0,140 Q 60,130 110,95 T 220,105 T 320,60 T 420,70 T 510,35 T 600,20 L 600,170 L 0,170 Z" fill="url(#chartGradient)"/>
+                    <!-- Stroke Curve -->
+                    <path class="chart-line" d="M 0,140 Q 60,130 110,95 T 220,105 T 320,60 T 420,70 T 510,35 T 600,20" fill="none" stroke="url(#lineGrad)" stroke-width="3.5" filter="url(#glow)"/>
+                    <!-- Active Indicator Point -->
+                    <circle cx="510" cy="35" r="5" fill="#00D084" stroke="#ffffff" stroke-width="2.5" class="chart-active-dot"/>
+                  </svg>
+                  <div class="chart-tooltip-bubble default-pos">
+                    <span class="tt-amt">$1,840.50</span>
+                    <span class="tt-date">Today, 2:40 PM</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Product Performance & Recent Orders split -->
+              <div class="hero-split-grid">
+                
+                <!-- Best-Selling Products -->
+                <div class="mini-card-module">
+                  <div class="module-head">
+                    <span class="module-title">Top Performing Products</span>
+                    <span class="module-action">View all</span>
+                  </div>
+                  <div class="mini-product-list">
+                    <div class="mini-prod-item">
+                      <img src="assets/images/product-ceramic.jpg" alt="Aura Sculptural Vase" class="prod-thumb">
+                      <div class="prod-meta">
+                        <span class="prod-name">Aura Sculptural Vase</span>
+                        <span class="prod-units">384 sales · $120.00</span>
+                      </div>
+                      <span class="prod-rev">$46,080</span>
+                    </div>
+                    <div class="mini-prod-item">
+                      <img src="assets/images/product-headphones.jpg" alt="Aether Spatial Headset" class="prod-thumb">
+                      <div class="prod-meta">
+                        <span class="prod-name">Aether Spatial Headset</span>
+                        <span class="prod-units">296 sales · $249.00</span>
+                      </div>
+                      <span class="prod-rev">$73,704</span>
+                    </div>
+                    <div class="mini-prod-item">
+                      <img src="assets/images/product-sneaker.jpg" alt="Valor Studio Runner" class="prod-thumb">
+                      <div class="prod-meta">
+                        <span class="prod-name">Valor Studio Runner</span>
+                        <span class="prod-units">210 sales · $185.00</span>
+                      </div>
+                      <span class="prod-rev">$38,850</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Recent Orders -->
+                <div class="mini-card-module">
+                  <div class="module-head">
+                    <span class="module-title">Recent Customer Orders</span>
+                    <span class="live-dot-pulse">Live</span>
+                  </div>
+                  <div class="mini-order-list">
+                    <div class="mini-order-row">
+                      <div class="cust-info">
+                        <span class="cust-name">Sophia Laurent</span>
+                        <span class="order-id">#4824 · 2 mins ago</span>
+                      </div>
+                      <div class="order-right">
+                        <span class="order-amt">$345.00</span>
+                        <span class="badge-status paid">Paid</span>
+                      </div>
+                    </div>
+                    <div class="mini-order-row">
+                      <div class="cust-info">
+                        <span class="cust-name">Liam O'Connor</span>
+                        <span class="order-id">#4823 · 8 mins ago</span>
+                      </div>
+                      <div class="order-right">
+                        <span class="order-amt">$120.00</span>
+                        <span class="badge-status shipped">Shipped</span>
+                      </div>
+                    </div>
+                    <div class="mini-order-row">
+                      <div class="cust-info">
+                        <span class="cust-name">Chloe Moreau</span>
+                        <span class="order-id">#4822 · 14 mins ago</span>
+                      </div>
+                      <div class="order-right">
+                        <span class="order-amt">$249.00</span>
+                        <span class="badge-status paid">Paid</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. TRUST BAR -->
+    <section class="trust-bar-section" id="trust-bar">
+      <div class="container">
+        <p class="trust-lead-text">
+          Everything you need to turn an idea into a real business.
+        </p>
+        
+        <div class="trust-items-grid">
+          <div class="trust-item">
+            <div class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <div class="trust-info">
+              <h4>Easy setup</h4>
+              <p>Launch in minutes, not months</p>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <div class="trust-info">
+              <h4>Secure checkout</h4>
+              <p>Bank-grade encryption & 3D Secure</p>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <div class="trust-info">
+              <h4>Powerful analytics</h4>
+              <p>Real-time revenue & conversion clarity</p>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <div class="trust-info">
+              <h4>Mobile ready</h4>
+              <p>Flawless buying across every device</p>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <div class="trust-info">
+              <h4>Built to scale</h4>
+              <p>High-concurrency infrastructure</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ecosystem logos bar -->
+        <div class="payment-partners-strip">
+          <span class="partners-label">Seamless payment & carrier integrations:</span>
+          <div class="partner-tags">
+            <span class="partner-tag">Apple Pay</span>
+            <span class="partner-tag">Google Pay</span>
+            <span class="partner-tag">Visa / Mastercard</span>
+            <span class="partner-tag">Stripe</span>
+            <span class="partner-tag">PayPal</span>
+            <span class="partner-tag">DHL Global</span>
+            <span class="partner-tag">FedEx</span>
+            <span class="partner-tag">Cash on Delivery (COD)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. PROBLEM → SOLUTION SECTION -->
+    <section class="story-section" id="solutions">
+      <div class="container">
+        
+        <div class="section-badge-center">
+          <span class="section-kicker">The Modern Way to Sell</span>
+          <h2 class="section-heading">
+            Starting an online business shouldn't be complicated.
+          </h2>
+          <p class="section-subtext">
+            Legacy commerce platforms were built for large enterprise IT departments. YouCan was engineered for modern founders who want to execute fast.
+          </p>
+        </div>
+
+        <!-- The 3 Common Problems -->
+        <div class="problems-grid">
+          
+          <div class="problem-card">
+            <div class="problem-badge">
+              <span class="prob-num">01</span>
+              <span class="prob-tag">Friction Point</span>
+            </div>
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+              </svg>
+            </div>
+            <h3 class="problem-title">Too Many Tools</h3>
+            <p class="problem-desc">
+              Managing different platforms for checkout, plugins, inventory, email marketing, and payment gateways drains your energy and wastes hours every day.
+            </p>
+            <div class="problem-footer">
+              <span class="friction-metric">Average 7+ disjointed apps required</span>
+            </div>
+          </div>
+
+          <div class="problem-card">
+            <div class="problem-badge">
+              <span class="prob-num">02</span>
+              <span class="prob-tag">Friction Point</span>
+            </div>
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="problem-title">Technical Complexity</h3>
+            <p class="problem-desc">
+              Building and maintaining an e-commerce store shouldn't require coding skills, hiring developers, or spending weeks debugging broken template files.
+            </p>
+            <div class="problem-footer">
+              <span class="friction-metric">$5,000+ typical agency launch cost</span>
+            </div>
+          </div>
+
+          <div class="problem-card">
+            <div class="problem-badge">
+              <span class="prob-num">03</span>
+              <span class="prob-tag">Friction Point</span>
+            </div>
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 20V10"></path>
+                <path d="M12 20V4"></path>
+                <path d="M6 20v-6"></path>
+              </svg>
+            </div>
+            <h3 class="problem-title">Limited Growth</h3>
+            <p class="problem-desc">
+              Your platform should grow with your business. Too many stores hit unexpected transaction fees, server crashes on flash sales, and restrictive API walls.
+            </p>
+            <div class="problem-footer">
+              <span class="friction-metric">High hidden fees eat your profit margin</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- The Transformation Bridge: "YouCan brings everything together" -->
+        <div class="solution-bridge-box">
+          <div class="bridge-header">
+            <span class="bridge-tag">The Integrated Solution</span>
+            <h3 class="bridge-title">YouCan brings everything together.</h3>
+            <p class="bridge-sub">
+              One unified operating system that handles your entire commerce lifecycle seamlessly. Click any stage to explore the flow:
+            </p>
+          </div>
+
+          <!-- Interactive Ecosystem Pipeline Flow -->
+          <div class="ecosystem-flow-container" id="ecosystem-flow">
+            <div class="flow-track-line"></div>
+            
+            <div class="flow-nodes-wrapper">
+              
+              <button type="button" class="eco-node active" data-node="store">
+                <div class="node-circle">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                  </svg>
+                </div>
+                <span class="node-label">Store</span>
+              </button>
+
+              <div class="flow-arrow-icon">→</div>
+
+              <button type="button" class="eco-node" data-node="products">
+                <div class="node-circle">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  </svg>
+                </div>
+                <span class="node-label">Products</span>
+              </button>
+
+              <div class="flow-arrow-icon">→</div>
+
+              <button type="button" class="eco-node" data-node="orders">
+                <div class="node-circle">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                  </svg>
+                </div>
+                <span class="node-label">Orders</span>
+              </button>
+
+              <div class="flow-arrow-icon">→</div>
+
+              <button type="button" class="eco-node" data-node="customers">
+                <div class="node-circle">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <span class="node-label">Customers</span>
+              </button>
+
+              <div class="flow-arrow-icon">→</div>
+
+              <button type="button" class="eco-node" data-node="analytics">
+                <div class="node-circle">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                  </svg>
+                </div>
+                <span class="node-label">Analytics</span>
+              </button>
+
+              <div class="flow-arrow-icon">→</div>
+
+              <button type="button" class="eco-node" data-node="growth">
+                <div class="node-circle glow-circle">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00D084" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                    <polyline points="17 6 23 6 23 12"></polyline>
+                  </svg>
+                </div>
+                <span class="node-label font-bold text-green">Growth</span>
+              </button>
+
+            </div>
+
+            <!-- Dynamic Node Detail Preview Card -->
+            <div class="eco-preview-panel" id="eco-preview-content">
+              <div class="eco-preview-text">
+                <span class="eco-stage-badge" id="eco-preview-badge">Stage 01: Store Creation</span>
+                <h4 class="eco-stage-title" id="eco-preview-title">Ultra-Fast Responsive Storefronts</h4>
+                <p class="eco-stage-desc" id="eco-preview-desc">
+                  Design bespoke, conversion-optimized shopping experiences in minutes. Zero coding required, instant SSL, global CDN edge caching, and mobile perfection by default.
+                </p>
+                <div class="eco-key-points" id="eco-preview-bullets">
+                  <span>✓ 60FPS mobile navigation</span>
+                  <span>✓ Sub-second checkout speeds</span>
+                  <span>✓ Custom domains with instant SSL</span>
+                </div>
+              </div>
+              <div class="eco-preview-visual" id="eco-preview-graphic">
+                <div class="mini-live-preview-box">
+                  <div class="mock-browser-top">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="mock-preview-body">
+                    <div class="mock-hero-banner">
+                      <span class="mock-brand-tag">AURA DESIGN</span>
+                      <span class="mock-btn-pill">Shop Autumn Drop</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 9. FEATURES SECTION -->
+    <section class="features-section" id="features">
+      <div class="container">
+        
+        <div class="section-badge-center">
+          <span class="section-kicker">Engineered for High Performance</span>
+          <h2 class="section-heading">Everything You Need to Build and Grow</h2>
+          <p class="section-subtext">
+            From your first product to your next million in sales, YouCan gives you the tools to move faster.
+          </p>
+        </div>
+
+        <!-- 6 Premium Feature Cards -->
+        <div class="features-cards-grid">
+          
+          <!-- 01 — Build Your Store -->
+          <div class="feature-card" data-card="1">
+            <div class="feature-card-glow"></div>
+            <div class="feature-top-meta">
+              <span class="feature-number">01</span>
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 20h9"></path>
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Build Your Store</h3>
+            <p class="feature-desc">
+              Create a professional online storefront without coding. Drag-and-drop customization, curated themes, and blazing load times.
+            </p>
+            <div class="feature-interactive-preview">
+              <div class="theme-picker-pill">
+                <span class="color-dot bg-dark"></span>
+                <span class="color-dot bg-cream"></span>
+                <span class="color-dot bg-emerald"></span>
+                <span class="theme-name">Modern Minimalist</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 02 — Manage Products -->
+          <div class="feature-card" data-card="2">
+            <div class="feature-card-glow"></div>
+            <div class="feature-top-meta">
+              <span class="feature-number">02</span>
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Manage Products</h3>
+            <p class="feature-desc">
+              Add products, images, prices, variants, and inventory effortlessly. Real-time SKU tracking and bulk editing in seconds.
+            </p>
+            <div class="feature-interactive-preview">
+              <div class="variant-pill-row">
+                <span class="var-tag active">Matte Black</span>
+                <span class="var-tag">Terracotta</span>
+                <span class="var-tag">Sage Green</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 03 — Process Orders -->
+          <div class="feature-card" data-card="3">
+            <div class="feature-card-glow"></div>
+            <div class="feature-top-meta">
+              <span class="feature-number">03</span>
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="5" width="20" height="14" rx="2"></rect>
+                  <line x1="2" y1="10" x2="22" y2="10"></line>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Process Orders</h3>
+            <p class="feature-desc">
+              Manage incoming orders from one centralized dashboard. Print shipping labels, send automated tracking SMS, and fulfill with 1 click.
+            </p>
+            <div class="feature-interactive-preview">
+              <div class="order-action-pill">
+                <span class="order-chk">✓</span>
+                <span>Fulfill & Print Label</span>
+                <span class="kbd-hint">⌘K</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 04 — Understand Your Customers -->
+          <div class="feature-card" data-card="4">
+            <div class="feature-card-glow"></div>
+            <div class="feature-top-meta">
+              <span class="feature-number">04</span>
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Understand Your Customers</h3>
+            <p class="feature-desc">
+              Track customer activity and understand buying behavior. Identify high-LTV VIPs, recover abandoned carts automatically, and build loyalty.
+            </p>
+            <div class="feature-interactive-preview">
+              <div class="retention-pill">
+                <span class="retention-dot"></span>
+                <span>Cart Recovery Rate: <strong>+34.2%</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 05 — Analyze Your Growth -->
+          <div class="feature-card" data-card="5">
+            <div class="feature-card-glow"></div>
+            <div class="feature-top-meta">
+              <span class="feature-number">05</span>
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Analyze Your Growth</h3>
+            <p class="feature-desc">
+              Monitor revenue, conversions, products, and business performance with transparent analytics. No fuzzy numbers or laggy reports.
+            </p>
+            <div class="feature-interactive-preview">
+              <div class="sparkline-bar-group">
+                <span class="spark-bar bar-40"></span>
+                <span class="spark-bar bar-65"></span>
+                <span class="spark-bar bar-85"></span>
+                <span class="spark-bar active bar-100"></span>
+                <span class="spark-label font-mono">Net Profit: $19,420</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 06 — Sell Everywhere -->
+          <div class="feature-card" data-card="6">
+            <div class="feature-card-glow"></div>
+            <div class="feature-top-meta">
+              <span class="feature-number">06</span>
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">Sell Everywhere</h3>
+            <p class="feature-desc">
+              Create a seamless shopping experience across devices and channels. Native social selling for TikTok, Instagram, and WhatsApp.
+            </p>
+            <div class="feature-interactive-preview">
+              <div class="channel-pill-list">
+                <span class="chan-tag">Online Store</span>
+                <span class="chan-tag">TikTok Shop</span>
+                <span class="chan-tag">Instagram</span>
+                <span class="chan-tag">POS</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 10. "HOW IT WORKS" SECTION -->
+    <section class="how-it-works-section" id="how-it-works">
+      <div class="container">
+        
+        <div class="section-badge-center">
+          <span class="section-kicker">Simple 3-Step Process</span>
+          <h2 class="section-heading">From Idea to Online Store in Minutes.</h2>
+          <p class="section-subtext">
+            No complex setup or engineering needed. Launching a high-converting store is as straightforward as 1, 2, 3.
+          </p>
+        </div>
+
+        <!-- Horizontal Desktop / Vertical Mobile Visual Timeline -->
+        <div class="timeline-container">
+          <div class="timeline-nav-track">
+            
+            <div class="step-card active" data-step="1">
+              <div class="step-badge">Step 01</div>
+              <div class="step-connector-dot"></div>
+              <h3 class="step-title">Create</h3>
+              <p class="step-desc">
+                Set up your store quickly. Pick your store name, connect your domain in 1 click, and select a design system tailored to your niche.
+              </p>
+              <div class="step-mini-metric">
+                <span>⏱ Average setup time: <strong>3.5 minutes</strong></span>
+              </div>
+            </div>
+
+            <div class="step-card" data-step="2">
+              <div class="step-badge">Step 02</div>
+              <div class="step-connector-dot"></div>
+              <h3 class="step-title">Customize</h3>
+              <p class="step-desc">
+                Add your products and create your brand experience. Upload studio shots, set prices, define shipping zones, and enable local payment methods.
+              </p>
+              <div class="step-mini-metric">
+                <span>⚡ Drag-and-drop live preview</span>
+              </div>
+            </div>
+
+            <div class="step-card" data-step="3">
+              <div class="step-badge">Step 03</div>
+              <div class="step-connector-dot"></div>
+              <h3 class="step-title">Sell</h3>
+              <p class="step-desc">
+                Launch your store and start accepting orders worldwide. YouCan’t frictionless checkout converts visitors into paying customers immediately.
+              </p>
+              <div class="step-mini-metric">
+                <span>🚀 Instant checkout with 0 delay</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Step Interactive Visual Mockup Showcase -->
+          <div class="step-visual-display" id="step-visual-box">
+            <div class="step-mockup-frame">
+              <div class="step-browser-chrome">
+                <span class="chrome-dot"></span>
+                <span class="chrome-dot"></span>
+                <span class="chrome-dot"></span>
+                <span class="chrome-url">youcan.com/store/setup</span>
+              </div>
+              
+              <div class="step-slide active" id="slide-step-1">
+                <div class="setup-wizard-card">
+                  <div class="wizard-header">
+                    <span class="wizard-tag">Quick Onboarding</span>
+                    <h4>Name your online store</h4>
+                  </div>
+                  <div class="wizard-form">
+                    <div class="mock-input-row">
+                      <span class="input-label">Store Name</span>
+                      <div class="mock-input-field">Aura Lifestyle Studio</div>
+                    </div>
+                    <div class="mock-input-row">
+                      <span class="input-label">Domain</span>
+                      <div class="mock-input-field text-green">aura.youcan.shop <span class="avail-chk">Available ✓</span></div>
+                    </div>
+                    <div class="mock-button-row">
+                      <span class="mock-btn-brand">Continue to Store Builder →</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-slide" id="slide-step-2">
+                <div class="setup-wizard-card">
+                  <div class="wizard-header">
+                    <span class="wizard-tag">Catalog Builder</span>
+                    <h4>Add Products & Details</h4>
+                  </div>
+                  <div class="wizard-products-list">
+                    <div class="wizard-prod-row">
+                      <img src="assets/images/product-ceramic.jpg" alt="Artisan Vase" class="w-thumb">
+                      <div class="w-info">
+                        <strong>Artisan Ceramic Vase</strong>
+                        <span>$120.00 · In Stock (84 units)</span>
+                      </div>
+                      <span class="badge-status paid">Live</span>
+                    </div>
+                    <div class="wizard-prod-row">
+                      <img src="assets/images/product-headphones.jpg" alt="Spatial Headset" class="w-thumb">
+                      <div class="w-info">
+                        <strong>Aether Spatial Headset</strong>
+                        <span>$249.00 · In Stock (36 units)</span>
+                      </div>
+                      <span class="badge-status paid">Live</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="step-slide" id="slide-step-3">
+                <div class="setup-wizard-card">
+                  <div class="wizard-header">
+                    <span class="wizard-tag text-green">Store Live</span>
+                    <h4>First Sale Celebration!</h4>
+                  </div>
+                  <div class="sale-celebration-box">
+                    <div class="celeb-icon">🎉</div>
+                    <div class="celeb-text">
+                      <strong>$189.00 Payment Confirmed</strong>
+                      <span>Order #1001 placed via Apple Pay from New York, USA</span>
+                    </div>
+                    <div class="celeb-growth-stat">+100% conversion efficiency</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 11. DASHBOARD SHOWCASE (Dark Premium Surface) -->
+    <section class="dashboard-showcase-section" id="dashboard-showcase">
+      <div class="container">
+        
+        <div class="showcase-header">
+          <span class="section-kicker kicker-green">Complete Visibility</span>
+          <h2 class="showcase-heading">
+            Your Entire Business. <br>One Powerful Dashboard.
+          </h2>
+          <p class="showcase-subtext">
+            See what's happening across your store and make smarter decisions from one centralized workspace.
+          </p>
+          <div class="showcase-cta-wrap">
+            <button type="button" class="btn-primary" id="showcase-explore-btn">
+              <span>Explore the Platform</span>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Realistic Large SaaS Dashboard Frame -->
+        <div class="showcase-display-wrapper">
+          <div class="showcase-card-ambient"></div>
+          
+          <div class="showcase-dashboard-panel">
+            
+            <!-- Dashboard Top Navigation -->
+            <div class="dash-top-nav">
+              <div class="dash-brand-unit">
+                <div class="dash-avatar-mini">A</div>
+                <div class="dash-store-info">
+                  <span class="d-store-name">Aura Global Goods</span>
+                  <span class="d-store-plan">YouCan Growth Plan</span>
+                </div>
+              </div>
+
+              <!-- Interactive Tabs -->
+              <div class="dash-main-tabs" id="showcase-tabs">
+                <button type="button" class="d-tab active" data-tab="overview">Overview</button>
+                <button type="button" class="d-tab" data-tab="orders">Orders (1,284)</button>
+                <button type="button" class="d-tab" data-tab="products">Products</button>
+                <button type="button" class="d-tab" data-tab="analytics">Live Analytics</button>
+              </div>
+
+              <div class="dash-user-controls">
+                <span class="live-indicator-pill">
+                  <span class="live-dot-pulse"></span> Live Sync
+                </span>
+                <button type="button" class="btn-dash-action" id="simulate-order-btn">+ Simulate Sale</button>
+              </div>
+            </div>
+
+            <!-- Dashboard Body Grid -->
+            <div class="dash-body-grid">
+              
+              <!-- Left 8-col: Revenue graph + Conversion breakdown -->
+              <div class="dash-col-left">
+                
+                <!-- Metrics Bar -->
+                <div class="dash-metrics-bar">
+                  <div class="d-metric-box">
+                    <span class="d-m-label">Net Sales</span>
+                    <span class="d-m-val" id="dash-val-rev">$24,680.00</span>
+                    <span class="d-m-trend pos">↑ 24.8% vs last month</span>
+                  </div>
+                  <div class="d-metric-box">
+                    <span class="d-m-label">Orders Processed</span>
+                    <span class="d-m-val" id="dash-val-orders">1,284</span>
+                    <span class="d-m-trend pos">↑ 18.2%</span>
+                  </div>
+                  <div class="d-metric-box">
+                    <span class="d-m-label">Conversion Rate</span>
+                    <span class="d-m-val">4.82%</span>
+                    <span class="d-m-trend pos">↑ 1.4%</span>
+                  </div>
+                  <div class="d-metric-box">
+                    <span class="d-m-label">Customer Growth</span>
+                    <span class="d-m-val">8,492</span>
+                    <span class="d-m-trend pos">↑ 320 new</span>
+                  </div>
+                </div>
+
+                <!-- Showcase Main Chart with date picker -->
+                <div class="dash-main-chart-card">
+                  <div class="chart-top-bar">
+                    <div>
+                      <h4 class="d-card-title">Revenue & Volume Stream</h4>
+                      <span class="d-card-sub">Daily breakdown across card, Apple Pay, and local methods</span>
+                    </div>
+                    <div class="chart-time-filter">
+                      <span class="filter-item">7D</span>
+                      <span class="filter-item active">30D</span>
+                      <span class="filter-item">90D</span>
+                      <span class="filter-item">1Y</span>
+                    </div>
+                  </div>
+
+                  <!-- High fidelity SVG Chart with bar and curve -->
+                  <div class="showcase-chart-canvas">
+                    <svg viewBox="0 0 740 220" class="showcase-svg" preserveAspectRatio="none">
+                      <defs>
+                        <linearGradient id="scGrad" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stop-color="#00D084" stop-opacity="0.32"/>
+                          <stop offset="100%" stop-color="#00D084" stop-opacity="0.0"/>
+                        </linearGradient>
+                      </defs>
+                      <!-- Horizontal grid lines -->
+                      <line x1="0" y1="50" x2="740" y2="50" stroke="rgba(255,255,255,0.06)"/>
+                      <line x1="0" y1="110" x2="740" y2="110" stroke="rgba(255,255,255,0.06)"/>
+                      <line x1="0" y1="170" x2="740" y2="170" stroke="rgba(255,255,255,0.06)"/>
+                      
+                      <!-- Subtle background bars for daily orders -->
+                      <rect x="50" y="120" width="12" height="50" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="110" y="90" width="12" height="80" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="170" y="70" width="12" height="100" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="230" y="110" width="12" height="60" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="290" y="80" width="12" height="90" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="350" y="60" width="12" height="110" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="410" y="90" width="12" height="80" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="470" y="50" width="12" height="120" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="530" y="40" width="12" height="130" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="590" y="70" width="12" height="100" rx="3" fill="rgba(255,255,255,0.05)"/>
+                      <rect x="650" y="30" width="12" height="140" rx="3" fill="rgba(0,208,132,0.2)"/>
+
+                      <!-- Main Area and Line -->
+                      <path d="M 0,160 Q 70,140 140,110 T 280,100 T 420,70 T 560,50 T 740,25 L 740,220 L 0,220 Z" fill="url(#scGrad)"/>
+                      <path d="M 0,160 Q 70,140 140,110 T 280,100 T 420,70 T 560,50 T 740,25" fill="none" stroke="#00D084" stroke-width="3.5"/>
+                      
+                      <!-- Interactive Tooltip Node -->
+                      <circle cx="650" cy="35" r="6" fill="#00D084" stroke="#ffffff" stroke-width="3"/>
+                    </svg>
+                    <div class="chart-annotation-pill">
+                      Peak Sales Day: $2,840.00 · 84 orders
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Right 4-col: Top Products & Recent Live Transactions -->
+              <div class="dash-col-right">
+                
+                <div class="d-side-card">
+                  <div class="d-card-header-flex">
+                    <h4 class="d-card-title">Top Products</h4>
+                    <span class="d-badge-sm">This Month</span>
+                  </div>
+                  <div class="d-products-feed">
+                    <div class="d-prod-row">
+                      <img src="assets/images/product-ceramic.jpg" alt="Aura Sculptural Vase" class="d-thumb">
+                      <div class="d-p-details">
+                        <span class="d-p-title">Aura Sculptural Vase</span>
+                        <span class="d-p-meta">SKU: AUR-01 · 384 sold</span>
+                      </div>
+                      <span class="d-p-price">$46.0k</span>
+                    </div>
+
+                    <div class="d-prod-row">
+                      <img src="assets/images/product-headphones.jpg" alt="Aether Headset" class="d-thumb">
+                      <div class="d-p-details">
+                        <span class="d-p-title">Aether Spatial Headset</span>
+                        <span class="d-p-meta">SKU: AET-42 · 296 sold</span>
+                      </div>
+                      <span class="d-p-price">$73.7k</span>
+                    </div>
+
+                    <div class="d-prod-row">
+                      <img src="assets/images/product-sneaker.jpg" alt="Valor Studio Runner" class="d-thumb">
+                      <div class="d-p-details">
+                        <span class="d-p-title">Valor Studio Runner</span>
+                        <span class="d-p-meta">SKU: VAL-88 · 210 sold</span>
+                      </div>
+                      <span class="d-p-price">$38.8k</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Recent Live Transactions -->
+                <div class="d-side-card mt-4">
+                  <div class="d-card-header-flex">
+                    <h4 class="d-card-title">Recent Transactions</h4>
+                    <span class="live-dot-pulse">Real-time</span>
+                  </div>
+                  <div class="d-trans-feed" id="live-trans-feed">
+                    <div class="d-trans-row">
+                      <div class="trans-indicator in">✓</div>
+                      <div class="trans-info">
+                        <span class="trans-buyer">Elena Rostova</span>
+                        <span class="trans-method">Apple Pay · Standard Shipping</span>
+                      </div>
+                      <span class="trans-amount">+$249.00</span>
+                    </div>
+                    <div class="d-trans-row">
+                      <div class="trans-indicator in">✓</div>
+                      <div class="trans-info">
+                        <span class="trans-buyer">Marcus Vance</span>
+                        <span class="trans-method">Visa · 1-Click Checkout</span>
+                      </div>
+                      <span class="trans-amount">+$120.00</span>
+                    </div>
+                    <div class="d-trans-row">
+                      <div class="trans-indicator in">✓</div>
+                      <div class="trans-info">
+                        <span class="trans-buyer">Sarah Lin</span>
+                        <span class="trans-method">Mastercard · Express</span>
+                      </div>
+                      <span class="trans-amount">+$185.00</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 12. MOBILE / ANYWHERE SECTION -->
+    <section class="mobile-section" id="mobile-showcase">
+      <div class="container mobile-layout-grid">
+        
+        <!-- Mobile Left Info -->
+        <div class="mobile-text-content">
+          <span class="section-kicker">Anywhere, Anytime</span>
+          <h2 class="section-heading">
+            Your Business Doesn't Stop When You Leave Your Desk.
+          </h2>
+          <p class="section-subtext">
+            Manage your store, monitor orders, and keep an eye on your business wherever you are with the native YouCan Mobile Experience.
+          </p>
+
+          <div class="mobile-features-list">
+            
+            <div class="mob-feat-item">
+              <div class="mob-feat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00D084" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                  <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                </svg>
+              </div>
+              <div class="mob-feat-text">
+                <h4>Instant Push Notifications</h4>
+                <p>Hear the iconic sale chime every time a new customer completes checkout.</p>
+              </div>
+            </div>
+
+            <div class="mob-feat-item">
+              <div class="mob-feat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00D084" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="3" width="15" height="13"></rect>
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                  <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                  <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                </svg>
+              </div>
+              <div class="mob-feat-text">
+                <h4>1-Swipe Fulfillment</h4>
+                <p>Scan barcodes with your camera, generate shipping labels, and dispatch orders on the go.</p>
+              </div>
+            </div>
+
+            <div class="mob-feat-item">
+              <div class="mob-feat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00D084" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="1" x2="12" y2="23"></line>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="mob-feat-text">
+                <h4>Live Revenue & Margins</h4>
+                <p>Track live profit, ad spend return (ROAS), and inventory alerts in your pocket.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Mobile Mockup Controls -->
+          <div class="phone-tabs-control">
+            <span class="phone-tab-label">Switch Phone Screen View:</span>
+            <div class="phone-tab-buttons" id="phone-screen-tabs">
+              <button type="button" class="p-tab active" data-screen="sales">Live Orders</button>
+              <button type="button" class="p-tab" data-screen="analytics">Revenue</button>
+              <button type="button" class="p-tab" data-screen="notifs">Alerts</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Right Column: Realistic iPhone Mockup -->
+        <div class="mobile-phone-column">
+          <div class="phone-mockup-frame">
+            <!-- Dynamic Island -->
+            <div class="phone-dynamic-island">
+              <div class="island-camera"></div>
+              <div class="island-sensor"></div>
+            </div>
+
+            <!-- Phone Screen -->
+            <div class="phone-screen" id="phone-screen">
+              
+              <!-- Screen 1: Live Orders View (Default) -->
+              <div class="screen-view active" id="view-sales">
+                <div class="phone-app-bar">
+                  <span class="phone-time">9:41</span>
+                  <div class="phone-app-title">
+                    <span>YouCan Store</span>
+                    <span class="phone-status-dot"></span>
+                  </div>
+                  <div class="phone-signal-icons">●●●</div>
+                </div>
+
+                <div class="phone-hero-card">
+                  <span class="p-card-tag">Today's Revenue</span>
+                  <div class="p-card-num">$1,840.50</div>
+                  <span class="p-card-sub text-green">+34.2% vs yesterday</span>
+                </div>
+
+                <!-- Floating notification banner in phone -->
+                <div class="phone-push-card">
+                  <div class="p-push-head">
+                    <span class="p-push-app">YOUCAN STORE</span>
+                    <span class="p-push-time">Now</span>
+                  </div>
+                  <div class="p-push-body">
+                    <strong>💰 New order #4825 received!</strong>
+                    <span>Sophia L. just purchased Aura Vase ($120.00)</span>
+                  </div>
+                </div>
+
+                <div class="phone-list-head">
+                  <span>Recent Orders</span>
+                  <span class="phone-view-all">See 14 new</span>
+                </div>
+
+                <div class="phone-order-items">
+                  <div class="p-order-item">
+                    <div class="p-order-badge">✓</div>
+                    <div class="p-order-info">
+                      <span class="p-name">Liam O'Connor</span>
+                      <span class="p-items">2 items · Express Delivery</span>
+                    </div>
+                    <span class="p-amt">$249.00</span>
+                  </div>
+                  <div class="p-order-item">
+                    <div class="p-order-badge">✓</div>
+                    <div class="p-order-info">
+                      <span class="p-name">Maya Patel</span>
+                      <span class="p-items">1 item · Apple Pay</span>
+                    </div>
+                    <span class="p-amt">$185.00</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Screen 2: Revenue Screen -->
+              <div class="screen-view" id="view-analytics">
+                <div class="phone-app-bar">
+                  <span class="phone-time">9:41</span>
+                  <div class="phone-app-title">Performance</div>
+                  <div class="phone-signal-icons">●●●</div>
+                </div>
+                <div class="phone-hero-card">
+                  <span class="p-card-tag">30-Day Total</span>
+                  <div class="p-card-num">$24,680.00</div>
+                  <span class="p-card-sub text-green">1,284 Orders fulfilled</span>
+                </div>
+                <div class="phone-mini-graph">
+                  <svg viewBox="0 0 200 60" class="phone-graph-svg">
+                    <path d="M 0,50 Q 50,40 100,20 T 200,10 L 200,60 L 0,60 Z" fill="rgba(0,208,132,0.2)"/>
+                    <path d="M 0,50 Q 50,40 100,20 T 200,10" fill="none" stroke="#00D084" stroke-width="2.5"/>
+                  </svg>
+                </div>
+                <div class="phone-stat-pills">
+                  <div class="p-pill"><span>Avg Order:</span> <strong>$78.20</strong></div>
+                  <div class="p-pill"><span>Conversion:</span> <strong>4.82%</strong></div>
+                </div>
+              </div>
+
+              <!-- Screen 3: Alerts Screen -->
+              <div class="screen-view" id="view-notifs">
+                <div class="phone-app-bar">
+                  <span class="phone-time">9:41</span>
+                  <div class="phone-app-title">Notifications</div>
+                  <div class="phone-signal-icons">●●●</div>
+                </div>
+                <div class="phone-alerts-list">
+                  <div class="p-alert-item">
+                    <span class="p-alert-icon">📦</span>
+                    <div>
+                      <strong>14 Orders Ready to Pack</strong>
+                      <p>Courier pickup scheduled for 2:00 PM</p>
+                    </div>
+                  </div>
+                  <div class="p-alert-item">
+                    <span class="p-alert-icon">⚡</span>
+                    <div>
+                      <strong>Traffic Spike Detected</strong>
+                      <p>+450 visitors from TikTok Campaign</p>
+                    </div>
+                  </div>
+                  <div class="p-alert-item">
+                    <span class="p-alert-icon">💎</span>
+                    <div>
+                      <strong>New VIP Customer</strong>
+                      <p>Elena Rostova placed her 4th order</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Home Indicator -->
+            <div class="phone-home-indicator"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 13. BENEFITS SECTION -->
+    <section class="benefits-section" id="benefits">
+      <div class="container">
+        
+        <div class="section-badge-center">
+          <span class="section-kicker">Why Choose YouCan</span>
+          <h2 class="section-heading">Built for Entrepreneurs. Designed for Growth.</h2>
+          <p class="section-subtext">
+            Every feature in YouCan is focused on eliminating friction and maximizing your bottom line.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          
+          <div class="benefit-card">
+            <div class="benefit-icon-badge">⚡</div>
+            <h3 class="benefit-title">Launch faster</h3>
+            <p class="benefit-desc">
+              Go from idea to published storefront in minutes. Zero coding, instant theme setup, and intuitive drag-and-drop customization.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-badge">📈</div>
+            <h3 class="benefit-title">Grow smarter</h3>
+            <p class="benefit-desc">
+              Built-in conversion funnels, 1-click upsells, automated abandoned cart recovery, and high-converting checkout flows.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-badge">🛍️</div>
+            <h3 class="benefit-title">Sell beautifully</h3>
+            <p class="benefit-desc">
+              Stunning modern storefronts optimized for mobile speed, high-res photography, and Apple-grade visual polish.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-badge">📊</div>
+            <h3 class="benefit-title">Understand your data</h3>
+            <p class="benefit-desc">
+              Live analytics that show real net profits, traffic velocity, customer retention, and top-performing marketing campaigns.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-badge">⚙️</div>
+            <h3 class="benefit-title">Simplify operations</h3>
+            <p class="benefit-desc">
+              Centralized order fulfillment, integrated shipping labels, multi-currency payouts, and multi-staff management.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-badge">🌍</div>
+            <h3 class="benefit-title">Build without limits</h3>
+            <p class="benefit-desc">
+              Zero bandwidth limits, infinite scalability, 99.99% uptime SLA, and global edge CDN caching for lightning-fast worldwide loads.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 14. SOCIAL PROOF / TESTIMONIALS -->
+    <section class="social-proof-section" id="testimonials">
+      <div class="container">
+        
+        <div class="section-badge-center">
+          <span class="section-kicker">Merchant Stories</span>
+          <h2 class="section-heading">Built for People Who Build Businesses.</h2>
+          <p class="section-subtext">
+            Join tens of thousands of ambitious entrepreneurs scaling online stores worldwide with YouCan.
+          </p>
+        </div>
+
+        <!-- Filter tabs for testimonials -->
+        <div class="testimonial-filter-row" id="testi-filters">
+          <button type="button" class="filter-btn active" data-filter="all">All Stories</button>
+          <button type="button" class="filter-btn" data-filter="lifestyle">Lifestyle & Home</button>
+          <button type="button" class="filter-btn" data-filter="fashion">Fashion & Apparel</button>
+          <button type="button" class="filter-btn" data-filter="food">Specialty Coffee & Food</button>
+        </div>
+
+        <div class="testimonials-grid" id="testi-grid">
+          
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card" data-category="lifestyle">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-quote">
+              "I launched my store much faster than I expected. With traditional platforms, I felt bogged down by expensive third-party apps and slow templates. YouCan had everything working out of the box."
+            </p>
+            <div class="testi-author-row">
+              <img src="assets/images/founder-sarah.jpg" alt="Sarah Lin" class="testi-avatar">
+              <div class="testi-meta">
+                <strong class="author-name">Sarah Lin</strong>
+                <span class="author-role">Founder, Aura Ceramic Studio</span>
+                <span class="store-milestone">Scaled to $42k/mo in 6 months</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card" data-category="food">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-quote">
+              "Managing orders became dramatically easier. Our roastery handles hundreds of coffee subscription boxes every Monday. The 1-click batch fulfillment saved us over 15 hours a week."
+            </p>
+            <div class="testi-author-row">
+              <img src="assets/images/founder-marcus.jpg" alt="Marcus Vance" class="testi-avatar">
+              <div class="testi-meta">
+                <strong class="author-name">Marcus Vance</strong>
+                <span class="author-role">Co-Founder, Forge Roasters</span>
+                <span class="store-milestone">12,000+ orders processed</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card" data-category="fashion">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-quote">
+              "YouCan gave me everything I needed to start selling online. The checkout conversion rate blew our previous store out of the water. Customers love how smooth and quick the mobile checkout is."
+            </p>
+            <div class="testi-author-row">
+              <img src="assets/images/founder-elena.jpg" alt="Elena Rostova" class="testi-avatar">
+              <div class="testi-meta">
+                <strong class="author-name">Elena Rostova</strong>
+                <span class="author-role">Founder, Lumina Organic Skincare</span>
+                <span class="store-milestone">Conversion increased by 3.2%</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 15. STATISTICS SECTION -->
+    <section class="stats-section" id="statistics">
+      <div class="container">
+        
+        <div class="stats-band-wrapper">
+          <div class="stat-box">
+            <div class="stat-headline" data-count="10000" data-suffix="K+">10K+</div>
+            <span class="stat-caption">Entrepreneurs</span>
+            <p class="stat-detail">Building their dream stores</p>
+          </div>
+
+          <div class="stat-divider"></div>
+
+          <div class="stat-box">
+            <div class="stat-headline" data-count="50000" data-suffix="K+">50K+</div>
+            <span class="stat-caption">Online Stores</span>
+            <p class="stat-detail">Active across 120+ countries</p>
+          </div>
+
+          <div class="stat-divider"></div>
+
+          <div class="stat-box">
+            <div class="stat-headline" data-count="100" data-prefix="" data-suffix="M+">Millions</div>
+            <span class="stat-caption">Orders Processed</span>
+            <p class="stat-detail">Frictionless checkouts</p>
+          </div>
+
+          <div class="stat-divider"></div>
+
+          <div class="stat-box">
+            <div class="stat-headline" data-count="24" data-suffix="/7">24/7</div>
+            <span class="stat-caption">Business Growth</span>
+            <p class="stat-detail">99.99% enterprise uptime</p>
+          </div>
+        </div>
+
+        <div class="stats-demo-note">
+          <span>*Note: Metric benchmarks reflect platform capability demonstrations & aggregate merchant benchmarks.</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERACTIVE PROFIT CALCULATOR SECTION (Added High-Value Conversion Element) -->
+    <section class="calculator-section" id="calculator">
+      <div class="container">
+        <div class="calc-wrapper">
+          <div class="calc-header">
+            <span class="section-kicker kicker-green">Transparent Economics</span>
+            <h3 class="calc-title">See How Much You Keep With YouCan</h3>
+            <p class="calc-sub">Drag the slider to your estimated monthly store sales volume:</p>
+          </div>
+
+          <div class="calc-slider-box">
+            <div class="slider-display">
+              <span class="vol-label">Estimated Monthly Sales:</span>
+              <span class="vol-val" id="calc-sales-val">$25,000 / mo</span>
+            </div>
+            <input type="range" id="sales-slider" min="1000" max="100000" step="1000" value="25000" class="custom-range-slider" aria-label="Monthly Sales Slider">
+            <div class="slider-ticks">
+              <span>$1,000</span>
+              <span>$25,000</span>
+              <span>$50,000</span>
+              <span>$75,000</span>
+              <span>$100,000+</span>
+            </div>
+          </div>
+
+          <div class="calc-comparison-grid">
+            <div class="calc-comp-card legacy">
+              <span class="comp-tag">Traditional Commerce Platform</span>
+              <div class="comp-fee" id="legacy-fee">$750 / mo</div>
+              <p class="comp-desc">2.9% transaction surcharge + $79 base fee + paid plugins</p>
+            </div>
+            <div class="calc-comp-card youcan-win">
+              <span class="comp-tag highlight">YouCan Advantage</span>
+              <div class="comp-saved" id="youcan-savings">Save $450+ every month</div>
+              <p class="comp-desc">0% transaction penalty fees on YouCan Growth + all native tools included</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16. PRICING SECTION -->
+    <section class="pricing-section" id="pricing">
+      <div class="container">
+        
+        <div class="section-badge-center">
+          <span class="section-kicker">Simple, Transparent Pricing</span>
+          <h2 class="section-heading">Start Simple. Scale When You're Ready.</h2>
+          <p class="section-subtext">
+            No hidden setup fees. No surprise charges. Choose the tier that matches your current stage.
+          </p>
+
+          <!-- Billing Interval Toggle -->
+          <div class="billing-toggle-wrapper">
+            <span class="billing-label" id="bill-monthly-label">Monthly</span>
+            <button type="button" class="toggle-switch" id="billing-toggle" role="switch" aria-checked="false" aria-label="Toggle annual billing">
+              <span class="toggle-thumb"></span>
+            </button>
+            <span class="billing-label" id="bill-annual-label">
+              Annual <span class="discount-badge">Save 20%</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- 3 Pricing Cards -->
+        <div class="pricing-cards-grid">
+          
+          <!-- STARTER -->
+          <div class="pricing-card" id="plan-starter">
+            <div class="plan-header">
+              <h3 class="plan-title">STARTER</h3>
+              <p class="plan-target">For entrepreneurs launching their first online store.</p>
+            </div>
+            
+            <div class="plan-price-wrap">
+              <div class="price-val">
+                <span class="currency">$</span>
+                <span class="amount" id="starter-price">24</span>
+                <span class="period">/month</span>
+              </div>
+              <span class="bill-note" id="starter-bill-note">Billed monthly</span>
+            </div>
+
+            <ul class="plan-features">
+              <li><span class="chk">✓</span> 1 Online Storefront</li>
+              <li><span class="chk">✓</span> Unlimited Products & Variants</li>
+              <li><span class="chk">✓</span> High-Converting Checkout</li>
+              <li><span class="chk">✓</span> Mobile Store Manager App</li>
+              <li><span class="chk">✓</span> Standard Shipping & COD support</li>
+              <li><span class="chk">✓</span> Email & Community Support</li>
+            </ul>
+
+            <button type="button" class="btn-outline w-full plan-cta-btn">Choose Starter</button>
+          </div>
+
+          <!-- GROWTH (MOST POPULAR) -->
+          <div class="pricing-card popular" id="plan-growth">
+            <div class="popular-ribbon">MOST POPULAR</div>
+            
+            <div class="plan-header">
+              <h3 class="plan-title text-green">GROWTH</h3>
+              <p class="plan-target">For businesses ready to scale their revenue and operations.</p>
+            </div>
+            
+            <div class="plan-price-wrap">
+              <div class="price-val">
+                <span class="currency">$</span>
+                <span class="amount text-green" id="growth-price">79</span>
+                <span class="period">/month</span>
+              </div>
+              <span class="bill-note" id="growth-bill-note">Billed monthly</span>
+            </div>
+
+            <ul class="plan-features">
+              <li><span class="chk text-green">✓</span> <strong>Everything in Starter, plus:</strong></li>
+              <li><span class="chk text-green">✓</span> <strong>0% Additional Transaction Fees</strong></li>
+              <li><span class="chk text-green">✓</span> 5 Staff Accounts & Roles</li>
+              <li><span class="chk text-green">✓</span> 1-Click Upsell & Order Bumps</li>
+              <li><span class="chk text-green">✓</span> Automated Abandoned Cart Recovery</li>
+              <li><span class="chk text-green">✓</span> Advanced Analytics & Export</li>
+              <li><span class="chk text-green">✓</span> Priority 24/7 Chat Support</li>
+            </ul>
+
+            <button type="button" class="btn-primary w-full plan-cta-btn">Start with Growth →</button>
+          </div>
+
+          <!-- BUSINESS -->
+          <div class="pricing-card" id="plan-business">
+            <div class="plan-header">
+              <h3 class="plan-title">BUSINESS</h3>
+              <p class="plan-target">For established high-volume e-commerce operations.</p>
+            </div>
+            
+            <div class="plan-price-wrap">
+              <div class="price-val">
+                <span class="currency">$</span>
+                <span class="amount" id="biz-price">199</span>
+                <span class="period">/month</span>
+              </div>
+              <span class="bill-note" id="biz-bill-note">Billed monthly</span>
+            </div>
+
+            <ul class="plan-features">
+              <li><span class="chk">✓</span> <strong>Everything in Growth, plus:</strong></li>
+              <li><span class="chk">✓</span> Unlimited Staff Accounts</li>
+              <li><span class="chk">✓</span> Multi-Warehouse Inventory Routing</li>
+              <li><span class="chk">✓</span> Custom Checkout Domain & CSS</li>
+              <li><span class="chk">✓</span> Dedicated Merchant Success Manager</li>
+              <li><span class="chk">✓</span> Enterprise 99.99% Uptime SLA</li>
+              <li><span class="chk">✓</span> Custom API & Webhook limits</li>
+            </ul>
+
+            <button type="button" class="btn-outline w-full plan-cta-btn">Choose Business</button>
+          </div>
+
+        </div>
+
+        <div class="pricing-disclaimer">
+          *Pricing shown above reflects demonstrative tiering. Clear, transparent, and customizable to your market needs.
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 17. FAQ SECTION -->
+    <section class="faq-section" id="faq">
+      <div class="container faq-container">
+        
+        <div class="faq-left">
+          <span class="section-kicker">Got Questions?</span>
+          <h2 class="faq-heading">Frequently Asked Questions</h2>
+          <p class="faq-desc">
+            Find answers to common inquiries about launching, managing, and scaling your e-commerce store with YouCan.
+          </p>
+          <div class="faq-help-box">
+            <h4>Need a tailored consultation?</h4>
+            <p>Our commerce experts are available 24/7 to help you transition your store.</p>
+            <a href="#final-cta" class="link-with-arrow">Talk with an expert <span>→</span></a>
+          </div>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <div class="faq-accordion" id="faq-accordion">
+          
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span class="faq-q">What is YouCan?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                YouCan is an all-in-one modern e-commerce platform built to help entrepreneurs, creators, and brands easily create, launch, manage, and scale online stores without technical complexity or expensive agency retainers.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span class="faq-q">How quickly can I launch my store?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Most entrepreneurs launch their initial store in under 15 minutes. With our pre-designed templates, intuitive product uploader, and instant payment setup, you can take your store live on the very same day.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span class="faq-q">Do I need technical knowledge?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Not at all. YouCan is 100% no-code. Everything from adding product images and managing inventory to configuring payments and shipping zones is handled via a clean, user-friendly visual dashboard.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span class="faq-q">Can I manage my store from my phone?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. YouCan is completely responsive and provides a powerful mobile management experience. You can monitor live revenue, process orders, scan shipments, update inventory, and receive real-time push notifications wherever you are.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span class="faq-q">Can I customize my storefront?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. You have full creative control over your typography, brand colors, banner layouts, product galleries, and custom domains. Your store looks completely unique to your brand, never like a cookie-cutter template.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span class="faq-q">How do I manage orders?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Incoming orders appear in real-time on your dashboard. You can filter by payment status, print packing slips and shipping labels in bulk, send automatic tracking updates to customers, and handle refunds seamlessly.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span class="faq-q">Can YouCan grow with my business?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Absolutely. YouCan’s distributed cloud infrastructure handles millions of concurrent shoppers during major flash sales and holiday shopping peaks with 99.99% uptime and zero slowdowns.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span class="faq-q">How do I get started?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Click "Start Selling Now" to create your free store account. Enter your store name, pick a category, and start adding your products immediately. No credit card is required to begin.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 18. FINAL CTA SECTION (Dramatic Conversion Hero) -->
+    <section class="final-cta-section" id="final-cta">
+      <div class="final-cta-glow"></div>
+      
+      <div class="container final-cta-container">
+        <div class="final-cta-badge">
+          <span class="badge-dot"></span>
+          Ready to launch your vision?
+        </div>
+        
+        <h2 class="final-cta-heading">
+          Your Online Business <br>Starts Here.
+        </h2>
+
+        <p class="final-cta-subtext">
+          Stop planning. Start building. Launch your store with YouCan today and take the first step toward your next business.
+        </p>
+
+        <!-- Fast Onboarding Interactive Input Box -->
+        <div class="final-action-box">
+          <form class="quick-store-form" id="quick-store-form" onsubmit="return false;">
+            <div class="input-with-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              </svg>
+              <input type="text" id="quick-store-name" placeholder="Enter your store name..." required aria-label="Enter store name">
+            </div>
+            <button type="submit" class="btn-primary btn-submit-store" id="final-submit-btn">
+              <span>Start Selling Now</span>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </form>
+          <span class="final-cta-footnote">
+            Create your store and take the first step toward your next business. No credit card required.
+          </span>
+        </div>
+
+        <div class="final-trust-checks">
+          <span>✓ Free 14-day full access</span>
+          <span>✓ Instant store setup</span>
+          <span>✓ Cancel anytime</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 19. FOOTER SECTION -->
+  <footer class="footer-wrapper" id="resources">
+    <div class="container footer-container">
+      
+      <div class="footer-brand-col">
+        <a href="#" class="brand-logo" aria-label="YouCan Home">
+          <div class="logo-mark">
+            <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="36" height="36" rx="10" fill="#0E161B"/>
+              <path d="M10 12L18 7L26 12V24L18 29L10 24V12Z" stroke="#00D084" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M18 13V23M13.5 17L18 12.5L22.5 17" stroke="#00D084" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="brand-name">
+            <span>You</span><span class="brand-accent">Can</span>
+          </div>
+        </a>
+        <p class="footer-tagline">
+          The simple, powerful platform for launching and growing an online business.
+        </p>
+        <div class="footer-status-indicator">
+          <span class="status-pulse-dot"></span>
+          <span>All systems operational · 99.99% uptime</span>
+        </div>
+      </div>
+
+      <!-- Links Columns: Product, Resources, Company, Legal -->
+      <div class="footer-links-grid">
+        
+        <div class="footer-col">
+          <h4 class="footer-col-title">PRODUCT</h4>
+          <ul class="footer-links-list">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#how-it-works">Integrations</a></li>
+            <li><a href="#dashboard-showcase">Commerce Engine</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">RESOURCES</h4>
+          <ul class="footer-links-list">
+            <li><a href="#faq">Help Center</a></li>
+            <li><a href="#how-it-works">Guides</a></li>
+            <li><a href="#solutions">Blog</a></li>
+            <li><a href="#features">Documentation</a></li>
+            <li><a href="#calculator">Store Profit Calculator</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">COMPANY</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">About</a></li>
+            <li><a href="#final-cta">Contact</a></li>
+            <li><a href="#hero">Careers <span class="badge-hiring">We're hiring</span></a></li>
+            <li><a href="#testimonials">Merchant Stories</a></li>
+            <li><a href="#trust-bar">Press & Brand</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">LEGAL</h4>
+          <ul class="footer-links-list">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookies Policy</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Compliance</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar with Copyright & Socials -->
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-inner">
+        <p class="copyright-text">
+          © 2026 YouCan. All rights reserved.
+        </p>
+
+        <div class="social-links-row">
+          <a href="#" class="social-icon" aria-label="Twitter / X">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.8v8.37h-2.8v-8.37M7.86 6.35c-.9 0-1.63.73-1.63 1.63s.73 1.63 1.63 1.63 1.63-.73 1.63-1.63-.73-1.63-1.63-1.63Z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- START SELLING INTERACTIVE ONBOARDING MODAL -->
+  <div class="modal-backdrop" id="start-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">✕</button>
+      
+      <div class="modal-step" id="modal-step-1">
+        <div class="modal-header">
+          <div class="modal-icon-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00D084" stroke-width="2.5">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3>Launch Your Store</h3>
+          <p>Enter your store details to generate your live preview in seconds.</p>
+        </div>
+
+        <form id="store-modal-form">
+          <div class="form-group">
+            <label for="modal-input-name">Store Name</label>
+            <input type="text" id="modal-input-name" placeholder="e.g. Apex Studio, Maison Luxe" required value="Apex Minimal">
+          </div>
+
+          <div class="form-group">
+            <label for="modal-input-cat">What will you sell?</label>
+            <select id="modal-input-cat" class="form-select">
+              <option value="fashion">Fashion & Apparel</option>
+              <option value="home">Home & Ceramic Art</option>
+              <option value="tech">Electronics & Tech</option>
+              <option value="food">Specialty Coffee & Gourmet</option>
+              <option value="beauty">Beauty & Cosmetics</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="modal-input-email">Your Work Email</label>
+            <input type="email" id="modal-input-email" placeholder="you@brand.com" required value="founder@apexstudio.com">
+          </div>
+
+          <button type="submit" class="btn-primary w-full btn-lg">
+            <span>Continue to Store Setup →</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Modal Step 2: Celebration / Store Ready -->
+      <div class="modal-step is-hidden" id="modal-step-2">
+        <div class="modal-celebrate">
+          <div class="celeb-sparkles">🎉</div>
+          <h3>Store Successfully Prepared!</h3>
+          <p id="modal-ready-text">Your store <strong>apexminimal.youcan.shop</strong> is ready to launch.</p>
+          <div class="modal-store-preview-chip">
+            <span class="chk text-green">✓</span>
+            <span>Free 14-day trial active · No credit card required</span>
+          </div>
+          <button type="button" class="btn-primary w-full btn-lg" id="modal-final-btn">
+            Enter My Store Dashboard →
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification for dynamic actions -->
+  <div class="action-toast" id="action-toast" role="status">
+    <span class="toast-icon">✓</span>
+    <span class="toast-msg" id="toast-msg">Action completed</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

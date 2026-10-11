@@ -1,0 +1,9 @@
+{
+  "name": "page-de-dawn",
+  "version": "1.0.0",
+  "description": "Landing pages YouCan et 3D Product COD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

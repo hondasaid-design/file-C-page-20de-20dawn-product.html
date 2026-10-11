@@ -1,0 +1,3155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خلاط YouCan الذكي اللاسلكي 3D — أقوى خلاط محمول لسحق الفواكه والثلج</title>
+  <meta name="description" content="خلاط YouCan الذكي اللاسلكي الجديد بتقنية 3D والشفرات السداسية لسحق الثلج والفواكه في 15 ثانية. الدفع عند الاستلام والتوصيل بالمجان بالمغرب.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23090D10'/><path d='M8 10L16 6L24 10V22L16 26L8 22V10Z' stroke='%2300D084' stroke-width='2.5' fill='none'/><path d='M16 12V20M12 16L16 12L20 16' stroke='%2300D084' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+
+  <!-- Google Fonts: Cairo, Tajawal, Outfit, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <style>
+/* ==========================================================================
+   YOUCAN STORE — HIGH-CONVERTING 3D PRODUCT LANDING PAGE (ABDOU ECOM STYLE)
+   Language: Bilingual Arabic (RTL) & French (LTR)
+   Target: Moroccan E-Commerce / COD (Cash On Delivery)
+   ========================================================================== */
+
+:root {
+  --primary-green: #00D084;
+  --primary-green-dark: #00A86B;
+  --primary-green-glow: rgba(0, 208, 132, 0.35);
+  --accent-gold: #F59E0B;
+  --accent-gold-glow: rgba(245, 158, 11, 0.28);
+  --alert-red: #EF4444;
+
+  --bg-main: #080D10;
+  --bg-surface: #0E161C;
+  --bg-card: #131E26;
+  --bg-card-hover: #182631;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-highlight: rgba(0, 208, 132, 0.35);
+
+  --text-primary: #FFFFFF;
+  --text-muted: #94A3B8;
+  --text-subtle: #64748B;
+  --text-dark: #0F172A;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 9999px;
+
+  --trans-fast: 0.18s ease;
+  --trans-normal: 0.28s ease;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Arabic Typography by Default */
+body.lang-ar {
+  font-family: 'Cairo', 'Tajawal', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+/* French / Latin Typography Mode */
+body.lang-fr {
+  font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+  direction: ltr;
+  text-align: left;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-green {
+  color: var(--primary-green) !important;
+}
+
+/* --------------------------------------------------------------------------
+   1. Urgency Top Banner Strip
+   -------------------------------------------------------------------------- */
+.urgency-top-strip {
+  background: linear-gradient(90deg, #1A0B05 0%, #291206 50%, #1A0B05 100%);
+  border-bottom: 1px solid rgba(245, 158, 11, 0.35);
+  padding: 0.6rem 0;
+  font-size: 0.9rem;
+}
+
+.strip-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.urgency-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.fire-icon {
+  font-size: 1.15rem;
+  animation: pulse-fire 1.5s infinite;
+}
+
+@keyframes pulse-fire {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.urgency-text {
+  font-weight: 700;
+  color: #FEF3C7;
+}
+
+.countdown-clock {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: #000000;
+  border: 1px solid var(--accent-gold);
+  border-radius: var(--radius-sm);
+  padding: 2px 8px;
+  font-family: 'Outfit', monospace;
+  font-weight: 800;
+  color: #FBBF24;
+  letter-spacing: 0.05em;
+}
+
+.urgency-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.shipping-pill {
+  background: rgba(0, 208, 132, 0.15);
+  border: 1px solid rgba(0, 208, 132, 0.3);
+  color: var(--primary-green);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.2rem 0.75rem;
+  border-radius: var(--radius-pill);
+}
+
+.lang-switch-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-pill);
+  color: #FFFFFF;
+  font-size: 0.82rem;
+  font-weight: 700;
+  transition: all var(--trans-fast);
+}
+
+.lang-switch-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: var(--primary-green);
+}
+
+/* --------------------------------------------------------------------------
+   2. Store Navigation Header
+   -------------------------------------------------------------------------- */
+.store-nav {
+  background: #0B1217;
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.85rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  backdrop-filter: blur(14px);
+}
+
+.store-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.store-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-badge-3d {
+  width: 38px;
+  height: 38px;
+  background: linear-gradient(135deg, #00D084 0%, #00965E 100%);
+  color: #04180E;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 4px 12px var(--primary-green-glow);
+}
+
+.brand-text-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-main {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  line-height: 1.1;
+}
+
+.brand-gadget {
+  color: var(--primary-green);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+.brand-sub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.store-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.satisfaction-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.stars-gold {
+  color: #FBBF24;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+}
+
+.review-count {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #E2E8F0;
+}
+
+.btn-order-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--primary-green);
+  color: #03140C;
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 0.55rem 1.35rem;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 4px 15px var(--primary-green-glow);
+  transition: all var(--trans-fast);
+}
+
+.btn-order-nav:hover {
+  background: #00F29B;
+  transform: translateY(-2px);
+}
+
+/* --------------------------------------------------------------------------
+   3. HERO PRODUCT SECTION & 3D VIEWER
+   -------------------------------------------------------------------------- */
+.prod-hero-section {
+  padding: 2.5rem 0 4rem 0;
+  position: relative;
+}
+
+.prod-hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+/* 3D Viewer Box */
+.viewer-card-3d {
+  position: relative;
+  background: #0E161C;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.badge-3d-floating {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 10;
+  background: rgba(0, 208, 132, 0.15);
+  border: 1px solid rgba(0, 208, 132, 0.35);
+  color: var(--primary-green);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-pill);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  backdrop-filter: blur(8px);
+}
+
+body.lang-fr .badge-3d-floating {
+  left: auto;
+  right: 1rem;
+}
+
+.canvas-3d-box {
+  position: relative;
+  width: 100%;
+  height: 440px;
+  background: radial-gradient(circle at 50% 50%, #15222B 0%, #0B1217 80%);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: grab;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.canvas-3d-box:active {
+  cursor: grabbing;
+}
+
+#blender-3d-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* 3D Model Interactive Hotspots */
+.hotspot-pin {
+  position: absolute;
+  z-index: 15;
+  cursor: pointer;
+}
+
+.pin-1 { top: 62%; left: 48%; }
+.pin-2 { top: 35%; left: 52%; }
+.pin-3 { top: 78%; left: 45%; }
+
+.pin-dot {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: var(--primary-green);
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 0 14px var(--primary-green);
+  animation: pulse-pin 2s infinite;
+}
+
+@keyframes pulse-pin {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+}
+
+.pin-tooltip {
+  position: absolute;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0E161C;
+  border: 1px solid var(--primary-green);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.drag-hint-pill {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(14, 22, 28, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  pointer-events: none;
+}
+
+/* Color Picker Bar */
+.color-picker-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.color-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #CBD5E1;
+}
+
+.color-dots-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid transparent;
+  transition: all var(--trans-fast);
+}
+
+.c-dot.active {
+  border-color: #FFFFFF;
+  transform: scale(1.15);
+}
+
+.dot-fill {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.emerald-fill { background: #00D084; }
+.black-fill { background: #1E293B; }
+.white-fill { background: #F1F5F9; }
+.coral-fill { background: #F87171; }
+
+.selected-color-name {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary-green);
+}
+
+/* Thumbnails row */
+.thumbs-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+}
+
+.thumb-btn {
+  background: #0E161C;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 4px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all var(--trans-fast);
+}
+
+.thumb-btn.active, .thumb-btn:hover {
+  border-color: var(--primary-green);
+  box-shadow: 0 4px 14px var(--primary-green-glow);
+}
+
+.thumb-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+
+.thumb-3d-badge {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: var(--primary-green);
+}
+
+.thumb-btn span {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   4. Right Column Details & Scarcity
+   -------------------------------------------------------------------------- */
+.prod-details-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.prod-tags-row {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.tag-original {
+  background: rgba(0, 208, 132, 0.12);
+  border: 1px solid rgba(0, 208, 132, 0.3);
+  color: var(--primary-green);
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0.3rem 0.85rem;
+  border-radius: var(--radius-pill);
+}
+
+.tag-bestseller {
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  color: #FBBF24;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0.3rem 0.85rem;
+  border-radius: var(--radius-pill);
+}
+
+.prod-main-title {
+  font-size: clamp(1.75rem, 3vw, 2.35rem);
+  font-weight: 900;
+  color: #FFFFFF;
+  line-height: 1.25;
+}
+
+.prod-tagline {
+  font-size: 1.05rem;
+  color: #CBD5E1;
+  line-height: 1.65;
+}
+
+/* Price Box */
+.price-hero-box {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  background: #111B22;
+  border: 1px solid rgba(0, 208, 132, 0.25);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+}
+
+.price-current-group {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+
+.price-big {
+  font-family: 'Outfit', 'Cairo', sans-serif;
+  font-size: 2.85rem;
+  font-weight: 900;
+  color: var(--primary-green);
+  line-height: 1;
+}
+
+.currency-label {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.price-old-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.old-price {
+  font-size: 1.15rem;
+  text-decoration: line-through;
+  color: var(--text-subtle);
+  font-weight: 600;
+}
+
+.save-badge {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #F87171;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+}
+
+/* Stock Scarcity Card */
+.stock-scarcity-card {
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+}
+
+.stock-scarcity-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.stock-warn {
+  color: #FECACA;
+  font-weight: 600;
+}
+
+.stock-warn strong {
+  color: #EF4444;
+}
+
+.stock-percent {
+  font-weight: 800;
+  color: #EF4444;
+}
+
+.scarcity-progress-track {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.scarcity-progress-bar {
+  width: 88%;
+  height: 100%;
+  background: linear-gradient(90deg, #F59E0B 0%, #EF4444 100%);
+  border-radius: 4px;
+  animation: pulse-bar 2s infinite alternate;
+}
+
+@keyframes pulse-bar {
+  0% { opacity: 0.85; }
+  100% { opacity: 1; }
+}
+
+/* Highlights Checklist */
+.quick-highlights-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.highlight-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  font-size: 0.95rem;
+  color: #E2E8F0;
+}
+
+.point-chk {
+  color: var(--primary-green);
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+/* Hero Order Button */
+.btn-hero-order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #05D87A 0%, #00B36E 100%);
+  color: #03140C;
+  padding: 1.15rem 1.75rem;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 30px var(--primary-green-glow);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--trans-normal);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+.btn-hero-order:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0, 208, 132, 0.5);
+  background: linear-gradient(180deg, #10E588 0%, #00C87E 100%);
+}
+
+.btn-cta-text {
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+}
+
+.btn-sub-note {
+  font-size: 0.82rem;
+  font-weight: 700;
+  opacity: 0.9;
+  margin-top: 2px;
+}
+
+/* Trust Guarantees Strip */
+.trust-guarantees-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-md);
+  padding: 0.85rem;
+  text-align: center;
+}
+
+.g-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #CBD5E1;
+}
+
+.g-icon {
+  font-size: 1.25rem;
+}
+
+/* --------------------------------------------------------------------------
+   5. 3D TECHNICAL EXPLODED BREAKDOWN
+   -------------------------------------------------------------------------- */
+.tech-3d-section {
+  padding: 5rem 0;
+  background: #0B1116;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.section-center-badge {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 3rem auto;
+}
+
+.kicker-tag {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--primary-green);
+  background: rgba(0, 208, 132, 0.12);
+  padding: 0.3rem 0.95rem;
+  border-radius: var(--radius-pill);
+  margin-bottom: 0.85rem;
+}
+
+.pulse-kicker {
+  animation: pulse-kicker 2s infinite;
+}
+
+@keyframes pulse-kicker {
+  0%, 100% { box-shadow: 0 0 0 rgba(0, 208, 132, 0); }
+  50% { box-shadow: 0 0 15px var(--primary-green-glow); }
+}
+
+.tech-heading {
+  font-size: clamp(1.85rem, 3.2vw, 2.65rem);
+  font-weight: 900;
+  color: #FFFFFF;
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+
+.tech-sub {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.exploded-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.exploded-card {
+  background: #111A22;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 1.5rem;
+  position: relative;
+  transition: all var(--trans-normal);
+}
+
+.exploded-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-highlight);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.exp-num {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 900;
+  color: var(--primary-green);
+  margin-bottom: 0.5rem;
+}
+
+.exp-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.exploded-card h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+}
+
+.exploded-card p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+/* --------------------------------------------------------------------------
+   6. BEFORE VS AFTER COMPARISON
+   -------------------------------------------------------------------------- */
+.comparison-section {
+  padding: 5rem 0;
+  background: var(--bg-main);
+}
+
+.comp-table-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.comp-col-bad {
+  background: rgba(239, 68, 68, 0.05);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+}
+
+.comp-col-good {
+  background: rgba(0, 208, 132, 0.06);
+  border: 2px solid var(--primary-green);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  box-shadow: 0 15px 40px var(--primary-green-glow);
+}
+
+.col-head {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.col-icon {
+  font-size: 1.5rem;
+}
+
+.col-head h3 {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.bad-head h3 { color: #F87171; }
+.good-head h3 { color: var(--primary-green); }
+
+.comp-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comp-list li {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: #E2E8F0;
+}
+
+/* --------------------------------------------------------------------------
+   7. OFFERS (PACKS) & MOROCCAN COD FORM (ABDOU ECOM CORE)
+   -------------------------------------------------------------------------- */
+.cod-section {
+  padding: 6rem 0;
+  background: radial-gradient(circle at 50% 20%, #12221B 0%, #070B0E 75%);
+  border-top: 1px solid var(--border-highlight);
+}
+
+.cod-container {
+  max-width: 860px;
+}
+
+.offers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.offer-pack-card {
+  background: #0E161C;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 1.25rem;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--trans-normal);
+}
+
+.offer-pack-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.offer-pack-card.active {
+  border-color: var(--primary-green);
+  background: #13222B;
+  box-shadow: 0 10px 30px var(--primary-green-glow);
+}
+
+.offer-pack-card.best-value {
+  border-color: var(--primary-green);
+  transform: scale(1.03);
+}
+
+.best-value-ribbon {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #F59E0B 0%, #D97706 100%);
+  color: #000000;
+  font-size: 0.72rem;
+  font-weight: 900;
+  padding: 0.25rem 0.85rem;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  box-shadow: 0 4px 12px var(--accent-gold-glow);
+}
+
+.pack-radio-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 0.85rem;
+  position: relative;
+  transition: all var(--trans-fast);
+}
+
+.offer-pack-card.active .pack-radio-circle {
+  border-color: var(--primary-green);
+  background: var(--primary-green);
+}
+
+.offer-pack-card.active .pack-radio-circle::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #04180E;
+}
+
+.pack-badge-simple {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.pack-badge-hot {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--primary-green);
+}
+
+.pack-badge-gold {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #FBBF24;
+}
+
+.pack-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin: 0.25rem 0;
+}
+
+.pack-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.pack-pricing {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  margin-top: auto;
+}
+
+.pack-price {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.pack-old {
+  font-size: 0.85rem;
+  text-decoration: line-through;
+  color: var(--text-subtle);
+}
+
+.pack-ship-free {
+  font-size: 0.72rem;
+  color: var(--primary-green);
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.pack-saved-pill {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #FBBF24;
+  background: rgba(245, 158, 11, 0.15);
+  padding: 2px 6px;
+  border-radius: var(--radius-pill);
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+/* COD Checkout Form Card */
+.cod-form-card {
+  background: #0E161C;
+  border: 2px solid var(--primary-green);
+  border-radius: var(--radius-xl);
+  padding: 2.5rem;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 35px var(--primary-green-glow);
+}
+
+.form-header-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 1.75rem;
+}
+
+.form-h-icon {
+  font-size: 2.2rem;
+}
+
+.form-header-bar h3 {
+  font-size: 1.45rem;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.form-header-bar p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.form-grid-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-field-group label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #CBD5E1;
+}
+
+.req {
+  color: #EF4444;
+}
+
+.input-icon-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.field-icon {
+  position: absolute;
+  right: 14px;
+  font-size: 1.1rem;
+  pointer-events: none;
+}
+
+body.lang-fr .field-icon {
+  right: auto;
+  left: 14px;
+}
+
+.input-icon-wrap input,
+.input-icon-wrap select {
+  width: 100%;
+  background: #131E26;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 2.85rem 0.85rem 1rem;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: all var(--trans-fast);
+}
+
+body.lang-fr .input-icon-wrap input,
+body.lang-fr .input-icon-wrap select {
+  padding: 0.85rem 1rem 0.85rem 2.85rem;
+}
+
+.input-icon-wrap select {
+  cursor: pointer;
+}
+
+.input-icon-wrap input:focus,
+.input-icon-wrap select:focus {
+  border-color: var(--primary-green);
+  box-shadow: 0 0 15px var(--primary-green-glow);
+  background: #17242E;
+}
+
+.phone-hint {
+  font-size: 0.75rem;
+  color: var(--text-subtle);
+}
+
+/* Order Summary Box */
+.form-summary-box {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.sum-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.sum-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin: 0.75rem 0;
+}
+
+.sum-total {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.total-big {
+  font-family: 'Outfit', 'Cairo', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: var(--primary-green);
+}
+
+/* Big Pulsing COD Submit Button */
+.btn-submit-order {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #05D87A 0%, #00B36E 100%);
+  color: #03140C;
+  padding: 1.25rem 2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 10px 35px var(--primary-green-glow);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--trans-normal);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  animation: pulse-submit 2.5s infinite;
+}
+
+@keyframes pulse-submit {
+  0%, 100% { transform: scale(1); box-shadow: 0 10px 35px var(--primary-green-glow); }
+  50% { transform: scale(1.015); box-shadow: 0 15px 45px rgba(0, 208, 132, 0.6); }
+}
+
+.btn-submit-order:hover {
+  background: linear-gradient(180deg, #10E588 0%, #00C87E 100%);
+  transform: translateY(-2px);
+}
+
+.btn-submit-order .btn-text {
+  font-size: 1.35rem;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+}
+
+.btn-submit-order .btn-security {
+  font-size: 0.8rem;
+  font-weight: 700;
+  opacity: 0.95;
+  margin-top: 3px;
+}
+
+/* --------------------------------------------------------------------------
+   8. CUSTOMER REVIEWS & REAL PROOF
+   -------------------------------------------------------------------------- */
+.reviews-section {
+  padding: 5.5rem 0;
+  background: #0B1116;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.review-card {
+  background: #111A22;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--trans-normal);
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.review-stars {
+  color: #FBBF24;
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.4rem;
+}
+
+.review-verified {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+}
+
+.review-text {
+  font-size: 0.95rem;
+  color: #E2E8F0;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.review-img-box {
+  margin-bottom: 1.25rem;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rev-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.review-user-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.user-avatar-circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--primary-green);
+  color: #03140C;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info strong {
+  font-size: 0.92rem;
+  color: #FFFFFF;
+}
+
+.user-info span {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   9. GUARANTEE GRID & FOOTER
+   -------------------------------------------------------------------------- */
+.guarantee-section {
+  padding: 4rem 0;
+  background: var(--bg-main);
+  border-top: 1px solid var(--border-color);
+}
+
+.guarantee-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.guarantee-box {
+  text-align: center;
+  padding: 1.75rem;
+  background: #0E161C;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+}
+
+.g-circle {
+  font-size: 2.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.guarantee-box h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 0.4rem;
+}
+
+.guarantee-box p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.store-footer {
+  background: #06090B;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.foot-brand strong {
+  font-size: 1.15rem;
+  color: #FFFFFF;
+}
+
+.foot-brand p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.foot-links {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--primary-green);
+}
+
+.foot-copy {
+  font-size: 0.78rem;
+  color: var(--text-subtle);
+}
+
+/* --------------------------------------------------------------------------
+   10. STICKY MOBILE BUY BAR (CRITICAL)
+   -------------------------------------------------------------------------- */
+.sticky-mobile-buy-bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(14, 22, 28, 0.95);
+  backdrop-filter: blur(14px);
+  border-top: 1px solid var(--border-highlight);
+  padding: 0.75rem 1rem;
+  z-index: 99;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.7);
+}
+
+.sticky-bar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sticky-price-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.sticky-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.sticky-price-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.sticky-val {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 900;
+  color: var(--primary-green);
+}
+
+.sticky-free {
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: rgba(0, 208, 132, 0.15);
+  color: var(--primary-green);
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+}
+
+.btn-sticky-buy {
+  background: linear-gradient(180deg, #05D87A 0%, #00B36E 100%);
+  color: #03140C;
+  font-size: 1.05rem;
+  font-weight: 900;
+  padding: 0.7rem 1.6rem;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 4px 15px var(--primary-green-glow);
+  animation: pulse-fire 2s infinite;
+}
+
+/* --------------------------------------------------------------------------
+   11. LIVE RECENT PURCHASE TOAST
+   -------------------------------------------------------------------------- */
+.recent-purchase-toast {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background: #0E161C;
+  border: 1px solid var(--primary-green);
+  border-radius: var(--radius-lg);
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  z-index: 95;
+  transform: translateY(120px);
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+body.lang-fr .recent-purchase-toast {
+  right: auto;
+  left: 1.5rem;
+}
+
+.recent-purchase-toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.toast-avatar {
+  font-size: 1.4rem;
+}
+
+.toast-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.toast-user {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.toast-item {
+  font-size: 0.75rem;
+  color: var(--primary-green);
+  font-weight: 700;
+}
+
+.toast-time {
+  font-size: 0.68rem;
+  color: var(--text-subtle);
+}
+
+/* --------------------------------------------------------------------------
+   12. SUCCESS MODAL
+   -------------------------------------------------------------------------- */
+.order-success-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 6, 8, 0.85);
+  backdrop-filter: blur(14px);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--trans-normal);
+}
+
+.order-success-modal-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.order-success-card {
+  background: #0E161C;
+  border: 2px solid var(--primary-green);
+  border-radius: var(--radius-xl);
+  padding: 2.5rem;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.8), 0 0 40px var(--primary-green-glow);
+  transform: scale(0.92);
+  transition: transform var(--trans-normal);
+}
+
+.order-success-modal-backdrop.open .order-success-card {
+  transform: scale(1);
+}
+
+.success-icon-bounce {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.order-success-card h3 {
+  font-size: 1.65rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin-bottom: 0.35rem;
+}
+
+.order-success-card p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.order-ref {
+  color: var(--primary-green);
+  font-size: 1.1rem;
+}
+
+.success-order-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  text-align: right;
+}
+
+body.lang-fr .success-order-box {
+  text-align: left;
+}
+
+.s-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.s-row strong {
+  color: #FFFFFF;
+}
+
+.call-notice-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: var(--radius-md);
+  padding: 0.85rem;
+  margin-bottom: 1.75rem;
+  text-align: right;
+}
+
+body.lang-fr .call-notice-box {
+  text-align: left;
+}
+
+.call-icon {
+  font-size: 1.3rem;
+}
+
+.call-notice-box p {
+  font-size: 0.82rem;
+  color: #FEF3C7;
+  line-height: 1.45;
+}
+
+.btn-close-success {
+  width: 100%;
+  background: var(--primary-green);
+  color: #04180E;
+  font-size: 1.1rem;
+  font-weight: 800;
+  padding: 0.85rem;
+  border-radius: var(--radius-pill);
+  transition: all var(--trans-fast);
+}
+
+.btn-close-success:hover {
+  background: #00F29B;
+}
+
+/* --------------------------------------------------------------------------
+   13. RESPONSIVE BREAKPOINTS
+   -------------------------------------------------------------------------- */
+@media (max-width: 960px) {
+  .prod-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  
+  .exploded-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-pack-card.best-value {
+    transform: none;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guarantee-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sticky-mobile-buy-bar {
+    display: block;
+  }
+
+  body {
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 640px) {
+  .form-grid-inputs {
+    grid-template-columns: 1fr;
+  }
+
+  .comp-table-card {
+    grid-template-columns: 1fr;
+  }
+
+  .cod-form-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .canvas-3d-box {
+    height: 340px;
+  }
+
+  .btn-submit-order .btn-text {
+    font-size: 1.2
+5rem;
+  }
+}
+
+</style>
+</head>
+<body class="lang-ar">
+
+  <!-- Top Urgency Banner -->
+  <div class="urgency-top-strip" id="top-bar">
+    <div class="container strip-content">
+      <div class="urgency-left">
+        <span class="fire-icon">🔥</span>
+        <span class="urgency-text" data-i18n="topUrgency">عرض خاص بالمغرب ينتهي خلال:</span>
+        <div class="countdown-clock" id="countdown-timer">
+          <span class="clock-unit" id="c-hours">03</span>:
+          <span class="clock-unit" id="c-mins">48</span>:
+          <span class="clock-unit" id="c-secs">21</span>
+        </div>
+      </div>
+      <div class="urgency-right">
+        <span class="shipping-pill" data-i18n="freeShippingBadge">🚚 التوصيل بالمجان + الدفع عند الاستلام</span>
+        <!-- Language Switcher Button -->
+        <div class="lang-toggle-wrap">
+          <button type="button" class="lang-switch-btn" id="lang-toggle-btn" aria-label="Toggle language">
+            <span class="lang-flag" id="lang-flag">🇲🇦</span>
+            <span class="lang-name" id="lang-name">Français</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Store Brand Navigation Header -->
+  <header class="store-nav" id="store-nav">
+    <div class="container store-nav-container">
+      <div class="store-brand">
+        <div class="brand-badge-3d">3D</div>
+        <div class="brand-text-col">
+          <span class="brand-main">YouCan <span class="brand-gadget">STORE</span></span>
+          <span class="brand-sub" data-i18n="officialStore">المتجر المغربي المعتمد للأجهزة الذكية</span>
+        </div>
+      </div>
+
+      <div class="store-nav-actions">
+        <div class="satisfaction-badge">
+          <span class="stars-gold">★★★★★</span>
+          <span class="review-count" data-i18n="ratingText">4.9/5 (+1,480 زبون راضٍ)</span>
+        </div>
+        <a href="#cod-order-section" class="btn-order-nav" data-i18n="orderNowBtn">
+          <span>اطلب الآن</span>
+          <span class="nav-arrow">↓</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO PRODUCT SECTION WITH 3D INTERACTIVE VIEWER -->
+    <section class="prod-hero-section" id="hero-product">
+      <div class="container prod-hero-grid">
+        
+        <!-- Left Column: 3D Interactive Viewer + Gallery -->
+        <div class="prod-viewer-column">
+          
+          <div class="viewer-card-3d" id="viewer-container">
+            
+            <div class="badge-3d-floating" data-i18n="badge3d">
+              <span class="cube-icon">🧊</span>
+              <span>عرض تفاعلي ثلاثي الأبعاد 360°</span>
+            </div>
+
+            <!-- 3D Canvas Container -->
+            <div class="canvas-3d-box" id="canvas-3d-wrapper">
+              <canvas id="blender-3d-canvas" width="560" height="520"></canvas>
+              
+              <!-- Interactive Hotspots on 3D Model -->
+              <div class="hotspot-pin pin-1" data-spot="blades">
+                <span class="pin-dot"></span>
+                <div class="pin-tooltip" data-i18n="spotBlades">6 شفرات تيتانيوم جراحية</div>
+              </div>
+              <div class="hotspot-pin pin-2" data-spot="glass">
+                <span class="pin-dot"></span>
+                <div class="pin-tooltip" data-i18n="spotGlass">زجاج بوروسيليكات مضاد للصدمات</div>
+              </div>
+              <div class="hotspot-pin pin-3" data-spot="motor">
+                <span class="pin-dot"></span>
+                <div class="pin-tooltip" data-i18n="spotMotor">محرك توربو 20,000 دورة/دقيقة</div>
+              </div>
+
+              <!-- Drag hint overlay -->
+              <div class="drag-hint-pill" id="drag-hint">
+                <span class="hand-icon">👈👉</span>
+                <span data-i18n="dragHint">اسحب بيدك لتدوير المنتج في جميع الاتجاهات</span>
+              </div>
+            </div>
+
+            <!-- Color Variants Selection -->
+            <div class="color-picker-bar">
+              <span class="color-label" data-i18n="colorLabel">اختر لونك المفضل:</span>
+              <div class="color-dots-group">
+                <button type="button" class="c-dot active" data-color="emerald" title="Emerald Green">
+                  <span class="dot-fill emerald-fill"></span>
+                </button>
+                <button type="button" class="c-dot" data-color="obsidian" title="Obsidian Black">
+                  <span class="dot-fill black-fill"></span>
+                </button>
+                <button type="button" class="c-dot" data-color="pearl" title="Pearl White">
+                  <span class="dot-fill white-fill"></span>
+                </button>
+                <button type="button" class="c-dot" data-color="coral" title="Coral Pink">
+                  <span class="dot-fill coral-fill"></span>
+                </button>
+              </div>
+              <span class="selected-color-name" id="selected-color-title">أخضر زمردي فاخر (الأكثر طلباً)</span>
+            </div>
+
+          </div>
+
+          <!-- Studio Photo Thumbnails Gallery -->
+          <div class="thumbs-row">
+            <button type="button" class="thumb-btn active" data-img="3d">
+              <div class="thumb-3d-badge">3D</div>
+              <span>تفاعلي 360°</span>
+            </button>
+            <button type="button" class="thumb-btn" data-img="assets/images/blender-hero.jpg">
+              <img src="assets/images/blender-hero.jpg" alt="Blender Studio">
+            </button>
+            <button type="button" class="thumb-btn" data-img="assets/images/blender-macro.jpg">
+              <img src="assets/images/blender-macro.jpg" alt="Blender Blades">
+            </button>
+            <button type="button" class="thumb-btn" data-img="assets/images/blender-review.jpg">
+              <img src="assets/images/blender-review.jpg" alt="Customer Unboxing">
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Product Title, Value Props, Stock Scarcity & Fast Order Button -->
+        <div class="prod-details-column">
+          
+          <div class="prod-tags-row">
+            <span class="tag-original" data-i18n="originalBadge">✓ منتج أصلي 100% مع ضمان سنة</span>
+            <span class="tag-bestseller" data-i18n="bestSellerBadge">الأكثر مبيعاً بالمغرب 🏆</span>
+          </div>
+
+          <h1 class="prod-main-title" data-i18n="prodTitle">
+            خلاط YouCan الذكي اللاسلكي 3D — قوة سحق الثلج والفواكه أينما كنت
+          </h1>
+
+          <p class="prod-tagline" data-i18n="prodTagline">
+            استمتع بعصائر طازجة وسموذي صحي في 15 ثانية فقط! بدون أسلاك، بقوة محرك توربو سويسري وشحن مغناطيسي سريع يدوم 20 استخدام متتالي.
+          </p>
+
+          <!-- Price & Discounts Box -->
+          <div class="price-hero-box">
+            <div class="price-current-group">
+              <span class="price-big" id="hero-display-price">249</span>
+              <span class="currency-label" data-i18n="currency">درهم مغربي</span>
+            </div>
+            <div class="price-old-group">
+              <span class="old-price">399 درهم</span>
+              <span class="save-badge" data-i18n="saveBadge">وفر 150 درهم اليوم</span>
+            </div>
+          </div>
+
+          <!-- Moroccan Stock Scarcity Progress Bar -->
+          <div class="stock-scarcity-card">
+            <div class="stock-scarcity-head">
+              <span class="stock-warn">⚠️ <strong data-i18n="stockAlert">تنبيه المخزون:</strong> <span data-i18n="stockRemaining">بقي فقط 6 قطع في المستودع بالمغرب!</span></span>
+              <span class="stock-percent">88% محجوز</span>
+            </div>
+            <div class="scarcity-progress-track">
+              <div class="scarcity-progress-bar"></div>
+            </div>
+          </div>
+
+          <!-- Key Quick Highlights (Checklist) -->
+          <div class="quick-highlights-list">
+            <div class="highlight-point">
+              <span class="point-chk">✓</span>
+              <span data-i18n="hl1"><strong>سحق فائق للثلج والفواكه الصلبة</strong> بفضل 6 شفرات تيتانيوم جراحية 3D</span>
+            </div>
+            <div class="highlight-point">
+              <span class="point-chk">✓</span>
+              <span data-i18n="hl2"><strong>محمول وخفيف الوزن</strong> بسعة 450ml مع حبل سيليكون رياضي فاخر</span>
+            </div>
+            <div class="highlight-point">
+              <span class="point-chk">✓</span>
+              <span data-i18n="hl3"><strong>شحن USB مغناطيسي سريع</strong> ببطارية قوية 4000mAh تدوم أسبوع كامل</span>
+            </div>
+            <div class="highlight-point">
+              <span class="point-chk">✓</span>
+              <span data-i18n="hl4"><strong>تنظيف ذاتي في 10 ثوانٍ:</strong> أضف الماء وقطرة صابون واضغط الزر!</span>
+            </div>
+          </div>
+
+          <!-- CTAs directly below highlights -->
+          <div class="hero-action-buttons">
+            <a href="#cod-order-section" class="btn-hero-order" id="hero-order-cta">
+              <span class="btn-glow-pulse"></span>
+              <span class="btn-cta-text" data-i18n="ctaMain">اضغط هنا للطلب — الدفع عند الاستلام 🚚</span>
+              <span class="btn-sub-note" data-i18n="ctaSub">توصيل سريع مجاني إلى باب منزلك في 24-48 ساعة</span>
+            </a>
+          </div>
+
+          <!-- Trust Proof Badges Strip -->
+          <div class="trust-guarantees-strip">
+            <div class="g-item">
+              <span class="g-icon">📦</span>
+              <span data-i18n="g1">توصيل مجاني لجميع المدن</span>
+            </div>
+            <div class="g-item">
+              <span class="g-icon">💵</span>
+              <span data-i18n="g2">الدفع نقداً بعد المعاينة</span>
+            </div>
+            <div class="g-item">
+              <span class="g-icon">🛡️</span>
+              <span data-i18n="g3">ضمان استبدال لمدة سنة</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3D TECHNICAL EXPLODED BREAKDOWN SECTION -->
+    <section class="tech-3d-section">
+      <div class="container">
+        
+        <div class="section-center-badge">
+          <span class="kicker-tag" data-i18n="techKicker">هندسة فائقة الدقة</span>
+          <h2 class="tech-heading" data-i18n="techTitle">تشريح ثلاثي الأبعاد: لماذا يعتبر أقوى خلاط محمول؟</h2>
+          <p class="tech-sub" data-i18n="techSub">تم تصميمه بأحدث التقنيات ليوفر لك قوة الخلاطات المنزلية الكبيرة في تصميم محمول يرافقك أينما ذهبت.</p>
+        </div>
+
+        <div class="exploded-grid">
+          
+          <div class="exploded-card">
+            <div class="exp-num">01</div>
+            <div class="exp-icon">🌀</div>
+            <h3 data-i18n="exp1Title">6 شفرات تيتانيوم 3D جراحية</h3>
+            <p data-i18n="exp1Desc">مصفوفة شفرات متعددة الزوايا تدور بسرعة 20,000 دورة بالدقيقة لتسحق مكعبات الثلج والمكسرات والفواكه المجمدة بكل سلاسة.</p>
+          </div>
+
+          <div class="exploded-card">
+            <div class="exp-num">02</div>
+            <div class="exp-icon">🛡️</div>
+            <h3 data-i18n="exp2Title">زجاج بوروسيليكات صحي 100%</h3>
+            <p data-i18n="exp2Desc">خالي تماماً من المواد الكيميائية الضارة (BPA Free)، مضاد للكسر والصدمات ويتحمل درجات الحرارة الساخنة والباردة.</p>
+          </div>
+
+          <div class="exploded-card">
+            <div class="exp-num">03</div>
+            <div class="exp-icon">⚡</div>
+            <h3 data-i18n="exp3Title">محرك نحاسي مغناطيسي 7.4V</h3>
+            <p data-i18n="exp3Desc">عزم دوران مضاعف 3 مرات مقارنة بالخلاطات الصينية العادية، مع نظام حماية ذكي يتوقف تلقائياً عند فتح الغطاء.</p>
+          </div>
+
+          <div class="exploded-card">
+            <div class="exp-num">04</div>
+            <div class="exp-icon">🔋</div>
+            <h3 data-i18n="exp4Title">بطارية 4000mAh تدوم أسبوعاً</h3>
+            <p data-i18n="exp4Desc">شحنة واحدة تكفي لتحضير 20 كوب عصير طازج. يمكنك شحنه عبر شاحن الهاتف، الحاسوب، أو بنك الطاقة في سيارتك.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BEFORE VS AFTER COMPARISON SECTION -->
+    <section class="comparison-section">
+      <div class="container">
+        
+        <div class="section-center-badge">
+          <span class="kicker-tag" data-i18n="compKicker">المقارنة الذكية</span>
+          <h2 class="tech-heading" data-i18n="compTitle">الفرق بين خلاط YouCan الذكي والخلاطات العادية</h2>
+        </div>
+
+        <div class="comp-table-card">
+          <div class="comp-col-bad">
+            <div class="col-head bad-head">
+              <span class="col-icon">❌</span>
+              <h3 data-i18n="compOldTitle">الخلاطات التقليدية</h3>
+            </div>
+            <ul class="comp-list">
+              <li data-i18n="compOld1">❌ ثقيلة الوزن ويجب ربطها بمقبس الكهرباء دائماً</li>
+              <li data-i18n="compOld2">❌ صعبة ومعقدة في الغسيل والتنظيف بعد كل استعمال</li>
+              <li data-i18n="compOld3">❌ صوت مزعج جداً يوقظ أهل البيت في الصباح</li>
+              <li data-i18n="compOld4">❌ شفرات ضعيفة تحترق عند محاولة سحق الثلج</li>
+              <li data-i18n="compOld5">❌ مستحيل أخذها للعمل، النادي الرياضي أو السفر</li>
+            </ul>
+          </div>
+
+          <div class="comp-col-good">
+            <div class="col-head good-head">
+              <span class="col-icon">✅</span>
+              <h3 data-i18n="compNewTitle">خلاط YouCan الذكي اللاسلكي</h3>
+            </div>
+            <ul class="comp-list">
+              <li data-i18n="compNew1">✅ لاسلكي ومحمول، اشربه مباشرة من نفس الكأس!</li>
+              <li data-i18n="compNew2">✅ تنظيف ذاتي أوتوماتيكي بضغطة زر في 10 ثوانٍ</li>
+              <li data-i18n="compNew3">✅ محرك قوي وهادئ بتقنية تقليل الضوضاء الحديثة</li>
+              <li data-i18n="compNew4">✅ 6 شفرات تيتانيوم تطحن الثلج والمكسرات بسهولة</li>
+              <li data-i18n="compNew5">✅ يرافقك للعمل، النادي، خرجات البحر والسيارة</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- HIGH-CONVERTING OFFER PACKS & COD FORM (ABDOU ECOM CORE) -->
+    <section class="cod-section" id="cod-order-section">
+      <div class="container cod-container">
+        
+        <div class="section-center-badge">
+          <span class="kicker-tag pulse-kicker" data-i18n="offersKicker">⚡ العروض الترويجية الحصرية بالمغرب</span>
+          <h2 class="tech-heading" data-i18n="offersTitle">اختر العرض المناسب لك واملأ المعلومات:</h2>
+          <p class="tech-sub" data-i18n="offersSub">تخفيضات خاصة عند شراء قطعتين أو أكثر + التوصيل بالمجان لجميع المدن المغربية!</p>
+        </div>
+
+        <!-- 3 Offer Bundles (Packs) -->
+        <div class="offers-grid" id="packs-selector">
+          
+          <!-- Pack 1 -->
+          <div class="offer-pack-card" data-pack="1" data-price="249">
+            <div class="pack-radio-circle"></div>
+            <div class="pack-badge-simple" data-i18n="pack1Badge">عرض فردي</div>
+            <h3 class="pack-title" data-i18n="pack1Title">قطعة واحدة (1 خلاط)</h3>
+            <p class="pack-desc" data-i18n="pack1Desc">خلاط ذكي + كابل شحن مغناطيسي + دليل الاستعمال</p>
+            <div class="pack-pricing">
+              <span class="pack-price">249 درهم</span>
+              <span class="pack-old">399 درهم</span>
+            </div>
+            <span class="pack-ship-free" data-i18n="freeShipTag">✓ التوصيل مجاني بالمغرب</span>
+          </div>
+
+          <!-- Pack 2 (Most Popular / Abdou Ecom style) -->
+          <div class="offer-pack-card active best-value" data-pack="2" data-price="399">
+            <div class="best-value-ribbon" data-i18n="pack2Ribbon">🔥 الأكثر طلباً بالمغرب — وفر 100 درهم إضافية</div>
+            <div class="pack-radio-circle checked"></div>
+            <div class="pack-badge-hot" data-i18n="pack2Badge">عرض قطعتين (Best Value)</div>
+            <h3 class="pack-title" data-i18n="pack2Title">قطعتين (2 خلاطات ذكية)</h3>
+            <p class="pack-desc" data-i18n="pack2Desc">واحدة لك وواحدة كهدية لشخص عزيز أو لشريك حياتك</p>
+            <div class="pack-pricing">
+              <span class="pack-price text-green">399 درهم فقط</span>
+              <span class="pack-old">498 درهم</span>
+            </div>
+            <span class="pack-saved-pill" data-i18n="pack2Save">وفرت 100 درهم إضافية + توصيل مجاني</span>
+          </div>
+
+          <!-- Pack 3 (Family Pack) -->
+          <div class="offer-pack-card" data-pack="3" data-price="499">
+            <div class="pack-radio-circle"></div>
+            <div class="pack-badge-gold" data-i18n="pack3Badge">عرض العائلة</div>
+            <h3 class="pack-title" data-i18n="pack3Title">3 قطع (3 خلاطات) + هدية</h3>
+            <p class="pack-desc" data-i18n="pack3Desc">3 خلاطات + قنينة رياضية إضافية بالمجان كهدية قيمة</p>
+            <div class="pack-pricing">
+              <span class="pack-price">499 درهم فقط</span>
+              <span class="pack-old">747 درهم</span>
+            </div>
+            <span class="pack-saved-pill" data-i18n="pack3Save">أقصى توفير: وفرت 248 درهم!</span>
+          </div>
+
+        </div>
+
+        <!-- 1-Click Fast Moroccan COD Checkout Form -->
+        <div class="cod-form-card" id="cod-form-box">
+          <div class="form-header-bar">
+            <div class="form-h-icon">📝</div>
+            <div>
+              <h3 data-i18n="formTitle">استمارة الطلب السريع (الدفع عند الاستلام)</h3>
+              <p data-i18n="formSub">يرجى إدخال معلوماتك بدقة، وسيتصل بك فريقنا لتأكيد طلبك وإرساله فوراً.</p>
+            </div>
+          </div>
+
+          <form id="moroccan-cod-form" novalidate>
+            
+            <div class="form-grid-inputs">
+              
+              <!-- Full Name -->
+              <div class="form-field-group">
+                <label for="client-name" data-i18n="labelName">الاسم الكامل <span class="req">*</span></label>
+                <div class="input-icon-wrap">
+                  <span class="field-icon">👤</span>
+                  <input type="text" id="client-name" name="name" placeholder="مثال: محمد العلوي" required autocomplete="name">
+                </div>
+              </div>
+
+              <!-- Phone Number -->
+              <div class="form-field-group">
+                <label for="client-phone" data-i18n="labelPhone">رقم الهاتف <span class="req">*</span></label>
+                <div class="input-icon-wrap">
+                  <span class="field-icon">📱</span>
+                  <input type="tel" id="client-phone" name="phone" placeholder="مثال: 0612345678" required autocomplete="tel" pattern="[0-9]{10}">
+                </div>
+                <span class="phone-hint" data-i18n="phoneHint">سنقوم بالاتصال بك على هذا الرقم لتأكيد موعد التسليم</span>
+              </div>
+
+              <!-- Moroccan Cities Dropdown -->
+              <div class="form-field-group">
+                <label for="client-city" data-i18n="labelCity">المدينة <span class="req">*</span></label>
+                <div class="input-icon-wrap">
+                  <span class="field-icon">📍</span>
+                  <select id="client-city" name="city" required>
+                    <option value="" disabled selected data-i18n="chooseCity">-- اختر مدينتك بالمغرب --</option>
+                    <option value="Casablanca">الدار البيضاء (Casablanca)</option>
+                    <option value="Rabat">الرباط (Rabat)</option>
+                    <option value="Marrakech">مراكش (Marrakech)</option>
+                    <option value="Tangier">طنجة (Tanger)</option>
+                    <option value="Fes">فاس (Fès)</option>
+                    <option value="Agadir">أكادير (Agadir)</option>
+                    <option value="Kenitra">القنيطرة (Kénitra)</option>
+                    <option value="Tetouan">تطوان (Tétouan)</option>
+                    <option value="Meknes">مكناس (Meknès)</option>
+                    <option value="Oujda">وجدة (Oujda)</option>
+                    <option value="Beni Mellal">بني ملال (Béni Mellal)</option>
+                    <option value="Nador">الناظور (Nador)</option>
+                    <option value="El Jadida">الجديدة (El Jadida)</option>
+                    <option value="Safi">آسفي (Safi)</option>
+                    <option value="Mohammedia">المحمدية (Mohammédia)</option>
+                    <option value="Temara">تمارة (Témara)</option>
+                    <option value="Salé">سلا (Salé)</option>
+                    <option value="Other">مدينة أخرى بالمغرب (Autre ville)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Address -->
+              <div class="form-field-group">
+                <label for="client-address" data-i18n="labelAddress">العنوان أو الحي <span class="req">*</span></label>
+                <div class="input-icon-wrap">
+                  <span class="field-icon">🏠</span>
+                  <input type="text" id="client-address" name="address" placeholder="مثال: حي المعاريف، زنقة 14، رقم 22" required autocomplete="street-address">
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Order Summary Banner Inside Form -->
+            <div class="form-summary-box">
+              <div class="sum-row">
+                <span data-i18n="sumPack">العرض المختار:</span>
+                <strong id="sum-pack-name">قطعتين (2 خلاطات ذكية)</strong>
+              </div>
+              <div class="sum-row">
+                <span data-i18n="sumShipping">مصاريف الشحن:</span>
+                <strong class="text-green" data-i18n="freeShipping">0 درهم (مجانـاً)</strong>
+              </div>
+              <div class="sum-divider"></div>
+              <div class="sum-row sum-total">
+                <span data-i18n="sumTotal">المجموع الصافي عند الاستلام:</span>
+                <span class="total-big" id="sum-total-price">399 درهم</span>
+              </div>
+            </div>
+
+            <!-- Huge Pulsing Submit Button -->
+            <button type="submit" class="btn-submit-order" id="submit-cod-btn">
+              <span class="btn-shine"></span>
+              <span class="btn-text" data-i18n="submitBtn">اضغط هنا لإتمام طلبك الآن — الدفع عند الاستلام 🚚</span>
+              <span class="btn-security" data-i18n="submitSub">🔒 بياناتك محمية 100% | ضمان الجودة واسترجاع الأموال</span>
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CUSTOMER REVIEWS & REAL PROOF (PHOTO UNBOXING & DARIJA REVIEWS) -->
+    <section class="reviews-section" id="reviews">
+      <div class="container">
+        
+        <div class="section-center-badge">
+          <span class="kicker-tag" data-i18n="reviewsKicker">آراء زبنائنا بالمغرب</span>
+          <h2 class="tech-heading" data-i18n="reviewsTitle">أكثر من 1,480 زبون يثقون في منتجاتنا</h2>
+          <p class="tech-sub" data-i18n="reviewsSub">صور وتجارب حقيقية لزبائن استلموا خلاط YouCan واستمتعوا بتجربته.</p>
+        </div>
+
+        <div class="reviews-grid">
+          
+          <!-- Review 1 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <div class="review-verified">
+              <span>✓ شراء مؤكد من الدار البيضاء</span>
+            </div>
+            <p class="review-text" data-i18n="rev1Text">
+              "والله إلا واعر بزاف وعملي! كينفعني بزاف مع الصباح ملي كنكون مزروبة للخدمة، ولا فصال الرياضة. كيطحن لافوكا والموز والثلج بلا ما يعكس. والتوصيل كان سريع نهارين ووصلني للدار."
+            </p>
+            <div class="review-user-row">
+              <div class="user-avatar-circle">هـ</div>
+              <div class="user-info">
+                <strong>هاجر الإدريسي</strong>
+                <span>الدار البيضاء · طلبت عرض قطعتين</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 with photo -->
+          <div class="review-card featured-photo-rev">
+            <div class="review-stars">★★★★★</div>
+            <div class="review-verified">
+              <span>✓ شراء مؤكد من الرباط</span>
+            </div>
+            <p class="review-text" data-i18n="rev2Text">
+              "الصراحة الكاليتي فاقت التوقعات ديالي، الزجاج قاصح والموتور مجهد كيطحن كلشي. شريت عرض 2 بياسات واحدة ليا وواحدة عطيتها لماما وفرحات بيها بزاف. شكراً ليكم."
+            </p>
+            <div class="review-img-box">
+              <img src="assets/images/blender-review.jpg" alt="Unboxing Customer Review" class="rev-img">
+            </div>
+            <div class="review-user-row">
+              <div class="user-avatar-circle">ف</div>
+              <div class="user-info">
+                <strong>فاطمة الزهراء الشاوي</strong>
+                <span>الرباط · أكد الاستلام قبل 3 أيام</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <div class="review-verified">
+              <span>✓ شراء مؤكد من طنجة</span>
+            </div>
+            <p class="review-text" data-i18n="rev3Text">
+              "أحسن برودوي شريتو هاد العام. الشحن كيبقى شاد سيمانة كاملة، والتنظيف ديالو ساهل كادير فيه شوية الما وكيغسل راسو براسو. كنصح بيه أي واحد باغي ياكل صحي."
+            </p>
+            <div class="review-user-row">
+              <div class="user-avatar-circle">ك</div>
+              <div class="user-info">
+                <strong>كريم بنسليمان</strong>
+                <span>طنجة · مدرب لياقة بدنية</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TRUST & GUARANTEE POLICIES -->
+    <section class="guarantee-section">
+      <div class="container guarantee-grid">
+        
+        <div class="guarantee-box">
+          <div class="g-circle">🚚</div>
+          <h3 data-i18n="pol1Title">توصيل مجاني 24-48 ساعة</h3>
+          <p data-i18n="pol1Desc">نتعامل مع أفضل شركات التوصيل السريع بالمغرب ليصلك المنتج لباب دارك بدون أي مصاريف إضافية.</p>
+        </div>
+
+        <div class="guarantee-box">
+          <div class="g-circle">💵</div>
+          <h3 data-i18n="pol2Title">الدفع بعد فحص المنتج</h3>
+          <p data-i18n="pol2Desc">لن تدفع أي سنتيم حتى تستلم طردك، تفتحه، وتتأكد من جودته بنفسك أمام رجل التوصيل.</p>
+        </div>
+
+        <div class="guarantee-box">
+          <div class="g-circle">🔄</div>
+          <h3 data-i18n="pol3Title">ضمان استبدال لمدة 30 يوم</h3>
+          <p data-i18n="pol3Desc">في حال وجود أي عيب مصنعي، نقوم باستبدال المنتج لك فوراً بآخر جديد مجاناً وبدون أي تعقيدات.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- STORE FOOTER -->
+  <footer class="store-footer">
+    <div class="container footer-content">
+      <div class="foot-brand">
+        <strong>YouCan Store Morocco</strong>
+        <p data-i18n="footDesc">المتجر المغربي المعتمد للأجهزة الذكية والمنتجات الأصلية ذات الجودة العالية.</p>
+      </div>
+      <div class="foot-links">
+        <a href="#hero-product" data-i18n="footBack">العودة للأعلى ↑</a>
+        <a href="index.html" data-i18n="footPlatform">منصة YouCan الرسمية ←</a>
+      </div>
+      <div class="foot-copy">
+        <p>© 2026 YouCan Store. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STICKY MOBILE BUY BAR (CRITICAL FOR HIGH MOROCCAN COD CONVERSION) -->
+  <div class="sticky-mobile-buy-bar" id="mobile-buy-bar">
+    <div class="sticky-bar-inner">
+      <div class="sticky-price-col">
+        <span class="sticky-label" data-i18n="stickyPriceLabel">السعر الحالي:</span>
+        <div class="sticky-price-row">
+          <span class="sticky-val" id="sticky-price-val">399 درهم</span>
+          <span class="sticky-free" data-i18n="stickyFree">توصيل مجاني</span>
+        </div>
+      </div>
+      <a href="#cod-order-section" class="btn-sticky-buy" id="sticky-buy-btn" data-i18n="stickyBtn">
+        <span>اطلب الآن 🚚</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- LIVE RECENT PURCHASE POPUP TOAST (ABDOU ECOM SCARCITY POPUP) -->
+  <div class="recent-purchase-toast" id="purchase-toast">
+    <div class="toast-avatar">🛍️</div>
+    <div class="toast-text">
+      <span class="toast-user" id="toast-buyer">اشترى كمال من الدار البيضاء</span>
+      <span class="toast-item" id="toast-offer">خلاط YouCan الذكي (عرض قطعتين 🔥)</span>
+      <span class="toast-time" id="toast-ago">قبل 3 دقائق · تم الشحن 🚚</span>
+    </div>
+  </div>
+
+  <!-- ORDER SUCCESS CONFIRMATION MODAL -->
+  <div class="order-success-modal-backdrop" id="success-modal" aria-hidden="true">
+    <div class="order-success-card">
+      <div class="success-icon-bounce">🎉</div>
+      <h3 data-i18n="modalSuccessTitle">تم تسجيل طلبك بنجاح!</h3>
+      <p data-i18n="modalSuccessSub">شكراً لثقتكم في متجرنا. رقم طلبك هو: <strong class="order-ref" id="order-ref-num">#YC-9482</strong></p>
+      
+      <div class="success-order-box">
+        <div class="s-row">
+          <span data-i18n="sClient">الاسم:</span>
+          <strong id="confirm-name">محمد العلوي</strong>
+        </div>
+        <div class="s-row">
+          <span data-i18n="sCity">المدينة:</span>
+          <strong id="confirm-city">الدار البيضاء</strong>
+        </div>
+        <div class="s-row">
+          <span data-i18n="sOffer">العرض:</span>
+          <strong id="confirm-pack">عرض قطعتين (399 درهم)</strong>
+        </div>
+      </div>
+
+      <div class="call-notice-box">
+        <span class="call-icon">📞</span>
+        <p data-i18n="modalNotice">
+          سيتصل بك موظف خدمة العملاء خلال الساعات القادمة لتأكيد العنوان وموعد التسليم. يرجى إبقاء هاتفك مفتوحاً.
+        </p>
+      </div>
+
+      <button type="button" class="btn-close-success" id="btn-close-modal" data-i18n="modalClose">
+        حسناً، فهمت ✓
+      </button>
+    </div>
+  </div>
+
+  <!-- Three.js Library for 3D Real-Time Blender Model Rendering -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script>
+/**
+ * YOUCAN STORE — 3D INTERACTIVE PRODUCT LANDING PAGE
+ * High-Converting Abdou Ecom Style (Moroccan COD Engine)
+ * Features: Three.js 3D Canvas, RTL/LTR Bilingual, Pack Selector, Real-time Scarcity
+ */
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  // ------------------------------------------------------------------------
+  // 1. Language Dictionary (Arabic / French)
+  // ------------------------------------------------------------------------
+  const translations = {
+    ar: {
+      topUrgency: "عرض خاص بالمغرب ينتهي خلال:",
+      freeShippingBadge: "🚚 التوصيل بالمجان + الدفع عند الاستلام",
+      langBtn: "Français",
+      langFlag: "🇲🇦",
+      officialStore: "المتجر المغربي المعتمد للأجهزة الذكية",
+      ratingText: "4.9/5 (+1,480 زبون راضٍ)",
+      orderNowBtn: "اطلب الآن",
+      badge3d: "عرض تفاعلي ثلاثي الأبعاد 360°",
+      dragHint: "اسحب بيدك لتدوير المنتج في جميع الاتجاهات",
+      spotBlades: "6 شفرات تيتانيوم جراحية",
+      spotGlass: "زجاج بوروسيليكات مضاد للصدمات",
+      spotMotor: "محرك توربو 20,000 دورة/دقيقة",
+      colorLabel: "اختر لونك المفضل:",
+      originalBadge: "✓ منتج أصلي 100% مع ضمان سنة",
+      bestSellerBadge: "الأكثر مبيعاً بالمغرب 🏆",
+      prodTitle: "خلاط YouCan الذكي اللاسلكي 3D — قوة سحق الثلج والفواكه أينما كنت",
+      prodTagline: "استمتع بعصائر طازجة وسموذي صحي في 15 ثانية فقط! بدون أسلاك، بقوة محرك توربو سويسري وشحن مغناطيسي سريع يدوم 20 استخدام متتالي.",
+      currency: "درهم مغربي",
+      saveBadge: "وفر 150 درهم اليوم",
+      stockAlert: "تنبيه المخزون:",
+      stockRemaining: "بقي فقط 6 قطع في المستودع بالمغرب!",
+      hl1: "<strong>سحق فائق للثلج والفواكه الصلبة</strong> بفضل 6 شفرات تيتانيوم جراحية 3D",
+      hl2: "<strong>محمول وخفيف الوزن</strong> بسعة 450ml مع حبل سيليكون رياضي فاخر",
+      hl3: "<strong>شحن USB مغناطيسي سريع</strong> ببطارية قوية 4000mAh تدوم أسبوع كامل",
+      hl4: "<strong>تنظيف ذاتي في 10 ثوانٍ:</strong> أضف الماء وقطرة صابون واضغط الزر!",
+      ctaMain: "اضغط هنا للطلب — الدفع عند الاستلام 🚚",
+      ctaSub: "توصيل سريع مجاني إلى باب منزلك في 24-48 ساعة",
+      g1: "توصيل مجاني لجميع المدن",
+      g2: "الدفع نقداً بعد المعاينة",
+      g3: "ضمان استبدال لمدة سنة",
+      techKicker: "هندسة فائقة الدقة",
+      techTitle: "تشريح ثلاثي الأبعاد: لماذا يعتبر أقوى خلاط محمول؟",
+      techSub: "تم تصميمه بأحدث التقنيات ليوفر لك قوة الخلاطات المنزلية الكبيرة في تصميم محمول يرافقك أينما ذهبت.",
+      exp1Title: "6 شفرات تيتانيوم 3D جراحية",
+      exp1Desc: "مصفوفة شفرات متعددة الزوايا تدور بسرعة 20,000 دورة بالدقيقة لتسحق مكعبات الثلج والمكسرات والفواكه المجمدة بكل سلاسة.",
+      exp2Title: "زجاج بوروسيليكات صحي 100%",
+      exp2Desc: "خالي تماماً من المواد الكيميائية الضارة (BPA Free)، مضاد للكسر والصدمات ويتحمل درجات الحرارة الساخنة والباردة.",
+      exp3Title: "محرك نحاسي مغناطيسي 7.4V",
+      exp3Desc: "عزم دوران مضاعف 3 مرات مقارنة بالخلاطات الصينية العادية، مع نظام حماية ذكي يتوقف تلقائياً عند فتح الغطاء.",
+      exp4Title: "بطارية 4000mAh تدوم أسبوعاً",
+      exp4Desc: "شحنة واحدة تكفي لتحضير 20 كوب عصير طازج. يمكنك شحنه عبر شاحن الهاتف، الحاسوب، أو بنك الطاقة في سيارتك.",
+      compKicker: "المقارنة الذكية",
+      compTitle: "الفرق بين خلاط YouCan الذكي والخلاطات العادية",
+      compOldTitle: "الخلاطات التقليدية",
+      compOld1: "❌ ثقيلة الوزن ويجب ربطها بمقبس الكهرباء دائماً",
+      compOld2: "❌ صعبة ومعقدة في الغسيل والتنظيف بعد كل استعمال",
+      compOld3: "❌ صوت مزعج جداً يوقظ أهل البيت في الصباح",
+      compOld4: "❌ شفرات ضعيفة تحترق عند محاولة سحق الثلج",
+      compOld5: "❌ مستحيل أخذها للعمل، النادي الرياضي أو السفر",
+      compNewTitle: "خلاط YouCan الذكي اللاسلكي",
+      compNew1: "✅ لاسلكي ومحمول، اشربه مباشرة من نفس الكأس!",
+      compNew2: "✅ تنظيف ذاتي أوتوماتيكي بضغطة زر في 10 ثوانٍ",
+      compNew3: "✅ محرك قوي وهادئ بتقنية تقليل الضوضاء الحديثة",
+      compNew4: "✅ 6 شفرات تيتانيوم تطحن الثلج والمكسرات بسهولة",
+      compNew5: "✅ يرافقك للعمل، النادي، خرجات البحر والسيارة",
+      offersKicker: "⚡ العروض الترويجية الحصرية بالمغرب",
+      offersTitle: "اختر العرض المناسب لك واملأ المعلومات:",
+      offersSub: "تخفيضات خاصة عند شراء قطعتين أو أكثر + التوصيل بالمجان لجميع المدن المغربية!",
+      pack1Badge: "عرض فردي",
+      pack1Title: "قطعة واحدة (1 خلاط)",
+      pack1Desc: "خلاط ذكي + كابل شحن مغناطيسي + دليل الاستعمال",
+      freeShipTag: "✓ التوصيل مجاني بالمغرب",
+      pack2Ribbon: "🔥 الأكثر طلباً بالمغرب — وفر 100 درهم إضافية",
+      pack2Badge: "عرض قطعتين (Best Value)",
+      pack2Title: "قطعتين (2 خلاطات ذكية)",
+      pack2Desc: "واحدة لك وواحدة كهدية لشخص عزيز أو لشريك حياتك",
+      pack2Save: "وفرت 100 درهم إضافية + توصيل مجاني",
+      pack3Badge: "عرض العائلة",
+      pack3Title: "3 قطع (3 خلاطات) + هدية",
+      pack3Desc: "3 خلاطات + قنينة رياضية إضافية بالمجان كهدية قيمة",
+      pack3Save: "أقصى توفير: وفرت 248 درهم!",
+      formTitle: "استمارة الطلب السريع (الدفع عند الاستلام)",
+      formSub: "يرجى إدخال معلوماتك بدقة، وسيتصل بك فريقنا لتأكيد طلبك وإرساله فوراً.",
+      labelName: "الاسم الكامل",
+      labelPhone: "رقم الهاتف",
+      phoneHint: "سنقوم بالاتصال بك على هذا الرقم لتأكيد موعد التسليم",
+      labelCity: "المدينة",
+      chooseCity: "-- اختر مدينتك بالمغرب --",
+      labelAddress: "العنوان أو الحي",
+      sumPack: "العرض المختار:",
+      sumShipping: "مصاريف الشحن:",
+      freeShipping: "0 درهم (مجانـاً)",
+      sumTotal: "المجموع الصافي عند الاستلام:",
+      submitBtn: "اضغط هنا لإتمام طلبك الآن — الدفع عند الاستلام 🚚",
+      submitSub: "🔒 بياناتك محمية 100% | ضمان الجودة واسترجاع الأموال",
+      reviewsKicker: "آراء زبنائنا بالمغرب",
+      reviewsTitle: "أكثر من 1,480 زبون يثقون في منتجاتنا",
+      reviewsSub: "صور وتجارب حقيقية لزبائن استلموا خلاط YouCan واستمتعوا بتجربته.",
+      stickyPriceLabel: "السعر الحالي:",
+      stickyFree: "توصيل مجاني",
+      stickyBtn: "اطلب الآن 🚚",
+      modalSuccessTitle: "تم تسجيل طلبك بنجاح!",
+      modalSuccessSub: "شكراً لثقتكم في متجرنا. رقم طلبك هو: ",
+      sClient: "الاسم:",
+      sCity: "المدينة:",
+      sOffer: "العرض:",
+      modalNotice: "سيتصل بك موظف خدمة العملاء خلال الساعات القادمة لتأكيد العنوان وموعد التسليم. يرجى إبقاء هاتفك مفتوحاً.",
+      modalClose: "حسناً، فهمت ✓"
+    },
+    fr: {
+      topUrgency: "Offre Spéciale Maroc expire dans :",
+      freeShippingBadge: "🚚 Livraison Gratuite + Paiement à la Livraison",
+      langBtn: "العربية",
+      langFlag: "🇫🇷",
+      officialStore: "Boutique Officielle Maroc d'Appareils Intelligents",
+      ratingText: "4.9/5 (+1 480 avis vérifiés)",
+      orderNowBtn: "Commander",
+      badge3d: "Vue 3D Interactive 360°",
+      dragHint: "Glissez votre doigt pour faire pivoter le produit",
+      spotBlades: "6 Lames Chirurgicales en Titane",
+      spotGlass: "Verre Borosilicate Antichoc",
+      spotMotor: "Moteur Turbo 20 000 tr/min",
+      colorLabel: "Choisissez votre couleur :",
+      originalBadge: "✓ Produit 100% Original - Garantie 1 An",
+      bestSellerBadge: "N°1 des Ventes au Maroc 🏆",
+      prodTitle: "Mixeur Sans Fil YouCan Smart 3D — Puissance Ultime Partout",
+      prodTagline: "Savourez des smoothies et jus frais en seulement 15 secondes ! Sans fil, moteur turbo puissant, batterie 4000mAh pour 20 utilisations.",
+      currency: "MAD (Dirhams)",
+      saveBadge: "Économisez 150 DH Aujourd'hui",
+      stockAlert: "Alerte Stock :",
+      stockRemaining: "Seulement 6 pièces restantes au Maroc !",
+      hl1: "<strong>Broyage instantané de la glace et fruits durs</strong> grâce aux 6 lames 3D",
+      hl2: "<strong>Ultra-portable & léger</strong> (450ml) avec dragonne silicone sport",
+      hl3: "<strong>Charge rapide USB magnétique</strong> avec autonomie d'une semaine",
+      hl4: "<strong>Auto-nettoyage en 10 secondes :</strong> ajoutez de l'eau et appuyez !",
+      ctaMain: "COMMANDER MAINTENANT — PAIEMENT À LA LIVRAISON 🚚",
+      ctaSub: "Livraison rapide gratuite à domicile sous 24-48h",
+      g1: "Livraison gratuite partout au Maroc",
+      g2: "Paiement en espèces après vérification",
+      g3: "Garantie de remplacement 1 an",
+      techKicker: "INGÉNIERIE DE PRÉCISION",
+      techTitle: "Anatomie 3D : Pourquoi est-il le plus puissant ?",
+      techSub: "Conçu pour égaler la puissance des mixeurs professionnels de cuisine dans un format nomade.",
+      exp1Title: "6 Lames Titane 3D Chirurgicales",
+      exp1Desc: "Matrice de coupe multi-angulaire tournant à 20 000 tr/min pour pulvériser glaçons et noix sans effort.",
+      exp2Title: "Verre Borosilicate 100% Sain",
+      exp2Desc: "Sans BPA, résistant aux chocs thermiques chaud/froid et inodore.",
+      exp3Title: "Moteur Cuivre Magnétique 7.4V",
+      exp3Desc: "Couple 3x supérieur avec sécurité automatique anti-démarrage si ouvert.",
+      exp4Title: "Batterie 4000mAh Longue Durée",
+      exp4Desc: "Rechargeable via chargeur de smartphone, PC ou allume-cigare en voiture.",
+      compKicker: "LE COMPARATIF",
+      compTitle: "La différence entre YouCan et les mixeurs classiques",
+      compOldTitle: "Mixeurs Traditionnels",
+      compOld1: "❌ Lourds et toujours dépendants d'une prise de courant",
+      compOld2: "❌ Très difficiles et dangereux à nettoyer",
+      compOld3: "❌ Bruit assourdissant qui réveille toute la maison",
+      compOld4: "❌ Lames faibles qui bloquent sur la glace",
+      compOld5: "❌ Impossible à emporter au bureau, sport ou voyage",
+      compNewTitle: "Mixeur Sans Fil YouCan Smart 3D",
+      compNew1: "✅ 100% sans fil : buvez directement depuis la bouteille !",
+      compNew2: "✅ Auto-nettoyage automatique en un clic en 10 sec",
+      compNew3: "✅ Moteur puissant et silencieux nouvelle génération",
+      compNew4: "✅ 6 lames chirurgicales broient tout sans effort",
+      compNew5: "✅ Vous accompagne au sport, travail, plage et voiture",
+      offersKicker: "⚡ OFFRES PROMOTIONNELLES EXCLUSIVES",
+      offersTitle: "Sélectionnez votre Pack & Remplissez vos Coordonnées :",
+      offersSub: "Remises exceptionnelles dès 2 pièces + Livraison 100% Gratuite au Maroc !",
+      pack1Badge: "Pack Solo",
+      pack1Title: "1 Pièce (1 Mixeur)",
+      pack1Desc: "1 mixeur intelligent + câble magnétique + manuel",
+      freeShipTag: "✓ Livraison Gratuite",
+      pack2Ribbon: "🔥 LE PLUS POPULAIRE — ÉCONOMISEZ 100 DH DE PLUS",
+      pack2Badge: "Pack Duo (Meilleure Offre)",
+      pack2Title: "2 Pièces (2 Mixeurs Intelligents)",
+      pack2Desc: "Un pour vous et un pour offrir à un proche",
+      pack2Save: "100 DH d'économie bonus + livraison offerte",
+      pack3Badge: "Pack Famille",
+      pack3Title: "3 Pièces (3 Mixeurs) + Cadeau",
+      pack3Desc: "3 mixeurs + une gourde sportive offerte en cadeau",
+      pack3Save: "Économie maximale : 248 DH économisés !",
+      formTitle: "Formulaire de Commande Rapide (COD)",
+      formSub: "Veuillez saisir vos coordonnées. Notre équipe vous appellera pour confirmer la livraison.",
+      labelName: "Nom et Prénom",
+      labelPhone: "Numéro de Téléphone",
+      phoneHint: "Nous vous appellerons sur ce numéro pour convenir de l'heure de livraison",
+      labelCity: "Ville",
+      chooseCity: "-- Choisissez votre ville au Maroc --",
+      labelAddress: "Adresse ou Quartier",
+      sumPack: "Pack sélectionné :",
+      sumShipping: "Frais de livraison :",
+      freeShipping: "0 DH (Gratuit)",
+      sumTotal: "Total net à la livraison :",
+      submitBtn: "VALIDER MA COMMANDE — PAIEMENT À LA RÉCEPTION 🚚",
+      submitSub: "🔒 Données 100% sécurisées | Garantie satisfaction ou remboursement",
+      reviewsKicker: "AVIS CLIENTS AU MAROC",
+      reviewsTitle: "Plus de 1 480 clients satisfaits",
+      reviewsSub: "Photos et témoignages réels de nos clients au Maroc.",
+      stickyPriceLabel: "Prix Total :",
+      stickyFree: "Livraison Gratuite",
+      stickyBtn: "Commander 🚚",
+      modalSuccessTitle: "Commande Enregistrée avec Succès !",
+      modalSuccessSub: "Merci pour votre confiance. Réf. Commande : ",
+      sClient: "Nom :",
+      sCity: "Ville :",
+      sOffer: "Pack :",
+      modalNotice: "Notre service client vous contactera dans les prochaines heures pour confirmer votre commande.",
+      modalClose: "D'accord, compris ✓"
+    }
+  };
+
+  let currentLang = 'ar';
+
+  // Toggle Language Handler
+  const langToggleBtn = document.getElementById('lang-toggle-btn');
+  const langFlag = document.getElementById('lang-flag');
+  const langName = document.getElementById('lang-name');
+
+  function setLanguage(lang) {
+    currentLang = lang;
+    const body = document.body;
+    const html = document.documentElement;
+
+    if (lang === 'ar') {
+      body.classList.remove('lang-fr');
+      body.classList.add('lang-ar');
+      html.setAttribute('dir', 'rtl');
+      html.setAttribute('lang', 'ar');
+    } else {
+      body.classList.remove('lang-ar');
+      body.classList.add('lang-fr');
+      html.setAttribute('dir', 'ltr');
+      html.setAttribute('lang', 'fr');
+    }
+
+    // Update all elements with data-i18n
+    const elements = document.querySelectorAll('[data-i18n]');
+    elements.forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (translations[lang] && translations[lang][key]) {
+        el.innerHTML = translations[lang][key];
+      }
+    });
+
+    if (langName) langName.textContent = translations[lang].langBtn;
+    if (langFlag) langFlag.textContent = translations[lang].langFlag;
+  }
+
+  if (langToggleBtn) {
+    langToggleBtn.addEventListener('click', () => {
+      setLanguage(currentLang === 'ar' ? 'fr' : 'ar');
+    });
+  }
+
+  // ------------------------------------------------------------------------
+  // 2. Real-Time Urgency Countdown Clock
+  // ------------------------------------------------------------------------
+  const cHours = document.getElementById('c-hours');
+  const cMins = document.getElementById('c-mins');
+  const cSecs = document.getElementById('c-secs');
+
+  let remainingSeconds = 3 * 3600 + 48 * 60 + 21;
+
+  setInterval(() => {
+    if (remainingSeconds > 0) {
+      remainingSeconds--;
+    } else {
+      remainingSeconds = 4 * 3600; // Reset urgency cycle
+    }
+    const h = Math.floor(remainingSeconds / 3600);
+    const m = Math.floor((remainingSeconds % 3600) / 60);
+    const s = remainingSeconds % 60;
+
+    if (cHours) cHours.textContent = String(h).padStart(2, '0');
+    if (cMins) cMins.textContent = String(m).padStart(2, '0');
+    if (cSecs) cSecs.textContent = String(s).padStart(2, '0');
+  }, 1000);
+
+  // ------------------------------------------------------------------------
+  // 3. Three.js 3D Interactive Blender Model
+  // ------------------------------------------------------------------------
+  const canvas = document.getElementById('blender-3d-canvas');
+  let scene, camera, renderer, blenderGroup;
+  let baseMesh, glassMesh, liquidMesh, bladeGroup;
+  let isDragging = false;
+  let previousMousePosition = { x: 0, y: 0 };
+
+  const colorPalettes = {
+    emerald: { base: 0x00A86B, accent: 0x00D084, name: 'أخضر زمردي فاخر (الأكثر طلباً)' },
+    obsidian: { base: 0x1E293B, accent: 0x334155, name: 'أسود فحمي رياضي (Obsidian Black)' },
+    pearl: { base: 0xE2E8F0, accent: 0xF8FAFC, name: 'أبيض لؤلؤي أنيق (Pure Pearl)' },
+    coral: { base: 0xF87171, accent: 0xFB7185, name: 'وردي مرجاني مشرق (Coral Pink)' }
+  };
+
+  function init3D() {
+    if (!canvas || typeof THREE === 'undefined') {
+      console.warn('Three.js not loaded, canvas will render high-res fallback.');
+      return;
+    }
+
+    const width = canvas.parentElement.clientWidth || 500;
+    const height = canvas.parentElement.clientHeight || 440;
+
+    scene = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera(40, width / height, 0.1, 1000);
+    camera.position.set(0, 0, 7.5);
+
+    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+    renderer.setSize(width, height);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+    // Studio Lights
+    const ambientLight = new THREE.AmbientLight(0xffffff, 1.4);
+    scene.add(ambientLight);
+
+    const dirLight1 = new THREE.DirectionalLight(0xffffff, 2.0);
+    dirLight1.position.set(5, 8, 5);
+    scene.add(dirLight1);
+
+    const dirLight2 = new THREE.DirectionalLight(0x00D084, 1.2);
+    dirLight2.position.set(-5, -2, -3);
+    scene.add(dirLight2);
+
+    blenderGroup = new THREE.Group();
+
+    // 1. Motor Base Cylinder
+    const baseGeo = new THREE.CylinderGeometry(1.15, 1.15, 1.6, 32);
+    const baseMat = new THREE.MeshStandardMaterial({
+      color: colorPalettes.emerald.base,
+      roughness: 0.35,
+      metalness: 0.2
+    });
+    baseMesh = new THREE.Mesh(baseGeo, baseMat);
+    baseMesh.position.y = -1.1;
+    blenderGroup.add(baseMesh);
+
+    // Metallic ring at bottom
+    const ringGeo = new THREE.CylinderGeometry(1.16, 1.16, 0.2, 32);
+    const ringMat = new THREE.MeshStandardMaterial({ color: 0xCBD5E1, roughness: 0.15, metalness: 0.85 });
+    const botRing = new THREE.Mesh(ringGeo, ringMat);
+    botRing.position.y = -1.8;
+    blenderGroup.add(botRing);
+
+    // Power Button on Base
+    const btnGeo = new THREE.CylinderGeometry(0.24, 0.24, 0.1, 24);
+    btnGeo.rotateX(Math.PI / 2);
+    const btnMat = new THREE.MeshStandardMaterial({ color: 0xFFFFFF, roughness: 0.2, metalness: 0.6 });
+    const powerBtn = new THREE.Mesh(btnGeo, btnMat);
+    powerBtn.position.set(0, -1.05, 1.12);
+    blenderGroup.add(powerBtn);
+
+    // Glowing Power Ring
+    const glowRingGeo = new THREE.TorusGeometry(0.28, 0.04, 16, 32);
+    const glowRingMat = new THREE.MeshBasicMaterial({ color: 0x00D084 });
+    const glowRing = new THREE.Mesh(glowRingGeo, glowRingMat);
+    glowRing.position.set(0, -1.05, 1.14);
+    blenderGroup.add(glowRing);
+
+    // 2. Glass Cylinder Body
+    const glassGeo = new THREE.CylinderGeometry(1.1, 1.1, 2.2, 32);
+    const glassMat = new THREE.MeshPhysicalMaterial({
+      color: 0xFFFFFF,
+      transmission: 0.92,
+      opacity: 1,
+      transparent: true,
+      roughness: 0.08,
+      ior: 1.5,
+      thickness: 0.4
+    });
+    glassMesh = new THREE.Mesh(glassGeo, glassMat);
+    glassMesh.position.y = 0.8;
+    blenderGroup.add(glassMesh);
+
+    // 3. Green Smoothie Liquid inside
+    const liqGeo = new THREE.CylinderGeometry(1.02, 1.02, 1.8, 32);
+    const liqMat = new THREE.MeshStandardMaterial({
+      color: 0x34D399,
+      roughness: 0.4,
+      metalness: 0.1,
+      transparent: true,
+      opacity: 0.85
+    });
+    liquidMesh = new THREE.Mesh(liqGeo, liqMat);
+    liquidMesh.position.y = 0.7;
+    blenderGroup.add(liquidMesh);
+
+    // 4. Stainless Steel 6-Blade Mechanism inside
+    bladeGroup = new THREE.Group();
+    for (let i = 0; i < 3; i++) {
+      const bladeGeo = new THREE.BoxGeometry(1.2, 0.06, 0.18);
+      const bladeMat = new THREE.MeshStandardMaterial({ color: 0xE2E8F0, metalness: 0.95, roughness: 0.15 });
+      const blade = new THREE.Mesh(bladeGeo, bladeMat);
+      blade.rotation.y = (i * Math.PI) / 3;
+      bladeGroup.add(blade);
+    }
+    bladeGroup.position.y = -0.2;
+    blenderGroup.add(bladeGroup);
+
+    // 5. Top Lid Cylinder
+    const lidGeo = new THREE.CylinderGeometry(1.12, 1.12, 0.7, 32);
+    const lidMat = new THREE.MeshStandardMaterial({
+      color: colorPalettes.emerald.base,
+      roughness: 0.35,
+      metalness: 0.2
+    });
+    const topLid = new THREE.Mesh(lidGeo, lidMat);
+    topLid.position.y = 2.25;
+    blenderGroup.add(topLid);
+
+    // Lid Metal Band
+    const lidBandGeo = new THREE.CylinderGeometry(1.13, 1.13, 0.15, 32);
+    const lidBand = new THREE.Mesh(lidBandGeo, ringMat);
+    lidBand.position.y = 1.95;
+    blenderGroup.add(lidBand);
+
+    // Strap loop on top
+    const strapGeo = new THREE.TorusGeometry(0.35, 0.08, 16, 24);
+    strapGeo.rotateY(Math.PI / 2);
+    const strapMat = new THREE.MeshStandardMaterial({ color: colorPalettes.emerald.accent, roughness: 0.8 });
+    const strap = new THREE.Mesh(strapGeo, strapMat);
+    strap.position.set(0.85, 2.35, 0);
+    blenderGroup.add(strap);
+
+    scene.add(blenderGroup);
+
+    // Drag to rotate controls
+    const wrapper = canvas.parentElement;
+
+    wrapper.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      previousMousePosition = { x: e.clientX, y: e.clientY };
+    });
+
+    window.addEventListener('mouseup', () => { isDragging = false; });
+
+    wrapper.addEventListener('mousemove', (e) => {
+      if (!isDragging || !blenderGroup) return;
+      const deltaX = e.clientX - previousMousePosition.x;
+      const deltaY = e.clientY - previousMousePosition.y;
+
+      blenderGroup.rotation.y += deltaX * 0.012;
+      blenderGroup.rotation.x += deltaY * 0.012;
+      // Clamp x
+      blenderGroup.rotation.x = Math.max(-0.6, Math.min(0.6, blenderGroup.rotation.x));
+
+      previousMousePosition = { x: e.clientX, y: e.clientY };
+    });
+
+    // Touch support for mobile devices
+    wrapper.addEventListener('touchstart', (e) => {
+      if (e.touches.length === 1) {
+        isDragging = true;
+        previousMousePosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      }
+    }, { passive: true });
+
+    window.addEventListener('touchend', () => { isDragging = false; });
+
+    wrapper.addEventListener('touchmove', (e) => {
+      if (!isDragging || !blenderGroup || e.touches.length !== 1) return;
+      const deltaX = e.touches[0].clientX - previousMousePosition.x;
+      const deltaY = e.touches[0].clientY - previousMousePosition.y;
+
+      blenderGroup.rotation.y += deltaX * 0.012;
+      blenderGroup.rotation.x += deltaY * 0.012;
+      blenderGroup.rotation.x = Math.max(-0.6, Math.min(0.6, blenderGroup.rotation.x));
+
+      previousMousePosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    }, { passive: true });
+
+    // Animation Loop
+    function animate() {
+      requestAnimationFrame(animate);
+
+      if (!isDragging && blenderGroup) {
+        blenderGroup.rotation.y += 0.005; // Gentle continuous auto-spin
+      }
+
+      if (bladeGroup) {
+        bladeGroup.rotation.y += 0.05; // Spin blades gently
+      }
+
+      renderer.render(scene, camera);
+    }
+    animate();
+
+    // Responsive Canvas Resize
+    window.addEventListener('resize', () => {
+      if (!canvas || !renderer || !camera) return;
+      const newW = canvas.parentElement.clientWidth;
+      const newH = canvas.parentElement.clientHeight;
+      camera.aspect = newW / newH;
+      camera.updateProjectionMatrix();
+      renderer.setSize(newW, newH);
+    });
+  }
+
+  init3D();
+
+  // Color Variant Buttons
+  const colorDots = document.querySelectorAll('.c-dot');
+  const colorTitle = document.getElementById('selected-color-title');
+
+  colorDots.forEach(btn => {
+    btn.addEventListener('click', () => {
+      colorDots.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const colorKey = btn.getAttribute('data-color');
+      const palette = colorPalettes[colorKey];
+
+      if (palette && baseMesh) {
+        baseMesh.material.color.setHex(palette.base);
+        if (colorTitle) colorTitle.textContent = palette.name;
+      }
+    });
+  });
+
+  // ------------------------------------------------------------------------
+  // 4. Offer Bundles (Pack Selection Logic)
+  // ------------------------------------------------------------------------
+  const packCards = document.querySelectorAll('.offer-pack-card');
+  const sumPackName = document.getElementById('sum-pack-name');
+  const sumTotalPrice = document.getElementById('sum-total-price');
+  const heroDisplayPrice = document.getElementById('hero-display-price');
+  const stickyPriceVal = document.getElementById('sticky-price-val');
+  let selectedPackNumber = '2';
+  let selectedPackPrice = '399';
+
+  const packNames = {
+    '1': { ar: 'قطعة واحدة (1 خلاط ذكي)', fr: '1 Pièce (1 Mixeur Smart)' },
+    '2': { ar: 'قطعتين (2 خلاطات ذكية) — الأكثر طلباً 🔥', fr: '2 Pièces (Pack Duo) — Plus Populaire 🔥' },
+    '3': { ar: '3 قطع (عرض العائلة) + هدية قيمة 🎁', fr: '3 Pièces (Pack Famille) + Cadeau 🎁' }
+  };
+
+  packCards.forEach(card => {
+    card.addEventListener('click', () => {
+      packCards.forEach(c => {
+        c.classList.remove('active');
+        const circle = c.querySelector('.pack-radio-circle');
+        if (circle) circle.classList.remove('checked');
+      });
+
+      card.classList.add('active');
+      const circle = card.querySelector('.pack-radio-circle');
+      if (circle) circle.classList.add('checked');
+
+      selectedPackNumber = card.getAttribute('data-pack');
+      selectedPackPrice = card.getAttribute('data-price');
+
+      if (sumPackName) {
+        sumPackName.textContent = packNames[selectedPackNumber][currentLang];
+      }
+      if (sumTotalPrice) {
+        sumTotalPrice.textContent = `${selectedPackPrice} درهم`;
+      }
+      if (heroDisplayPrice) {
+        heroDisplayPrice.textContent = selectedPackPrice;
+      }
+      if (stickyPriceVal) {
+        stickyPriceVal.textContent = `${selectedPackPrice} درهم`;
+      }
+    });
+  });
+
+  // ------------------------------------------------------------------------
+  // 5. Moroccan COD Form Submission & Validation
+  // ------------------------------------------------------------------------
+  const codForm = document.getElementById('moroccan-cod-form');
+  const successModal = document.getElementById('success-modal');
+  const btnCloseModal = document.getElementById('btn-close-modal');
+  const confirmName = document.getElementById('confirm-name');
+  const confirmCity = document.getElementById('confirm-city');
+  const confirmPack = document.getElementById('confirm-pack');
+  const orderRefNum = document.getElementById('order-ref-num');
+
+  if (codForm) {
+    codForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const nameInput = document.getElementById('client-name');
+      const phoneInput = document.getElementById('client-phone');
+      const citySelect = document.getElementById('client-city');
+      const addressInput = document.getElementById('client-address');
+
+      const nameVal = nameInput ? nameInput.value.trim() : '';
+      const phoneVal = phoneInput ? phoneInput.value.trim() : '';
+      const cityVal = citySelect ? citySelect.value : '';
+      const addressVal = addressInput ? addressInput.value.trim() : '';
+
+      // Validation
+      if (!nameVal) {
+        alert(currentLang === 'ar' ? 'يرجى إدخال اسمكم الكامل' : 'Veuillez saisir votre nom complet');
+        nameInput.focus();
+        return;
+      }
+
+      if (!phoneVal || phoneVal.length < 9) {
+        alert(currentLang === 'ar' ? 'يرجى إدخال رقم هاتف صحيح للتواصل معك' : 'Veuillez saisir un numéro de téléphone valide');
+        phoneInput.focus();
+        return;
+      }
+
+      if (!cityVal) {
+        alert(currentLang === 'ar' ? 'يرجى اختيار مدينتك بالمغرب' : 'Veuillez sélectionner votre ville');
+        citySelect.focus();
+        return;
+      }
+
+      if (!addressVal) {
+        alert(currentLang === 'ar' ? 'يرجى إدخال عنوان التسليم أو الحي' : 'Veuillez saisir votre adresse ou quartier');
+        addressInput.focus();
+        return;
+      }
+
+      // Generate random order reference (e.g., #YC-4892)
+      const randomRef = '#YC-' + Math.floor(1000 + Math.random() * 9000);
+      if (orderRefNum) orderRefNum.textContent = randomRef;
+      if (confirmName) confirmName.textContent = nameVal;
+      if (confirmCity) confirmCity.textContent = cityVal;
+      if (confirmPack) confirmPack.textContent = `${packNames[selectedPackNumber][currentLang]} (${selectedPackPrice} MAD)`;
+
+      // Open celebration modal
+      if (successModal) {
+        successModal.classList.add('open');
+        successModal.setAttribute('aria-hidden', 'false');
+      }
+
+      // Reset form
+      codForm.reset();
+    });
+  }
+
+  if (btnCloseModal && successModal) {
+    btnCloseModal.addEventListener('click', () => {
+      successModal.classList.remove('open');
+      successModal.setAttribute('aria-hidden', 'true');
+    });
+  }
+
+  // ------------------------------------------------------------------------
+  // 6. Recent Live Purchase Toast (Abdou Ecom Scarcity Trigger)
+  // ------------------------------------------------------------------------
+  const purchaseToast = document.getElementById('purchase-toast');
+  const toastBuyer = document.getElementById('toast-buyer');
+  const toastOffer = document.getElementById('toast-offer');
+  const toastAgo = document.getElementById('toast-ago');
+
+  const livePurchases = [
+    { name: 'كمال من الدار البيضاء', offer: 'خلاط YouCan الذكي (عرض قطعتين 🔥)', time: 'قبل دقيقة واحدة' },
+    { name: 'ياسين من مراكش', offer: 'خلاط YouCan الذكي (عرض قطعتين 🔥)', time: 'قبل 3 دقائق' },
+    { name: 'مريم من الرباط', offer: 'خلاط YouCan الذكي (عرض فردي 1 قطعة)', time: 'قبل 5 دقائق' },
+    { name: 'أمين من طنجة', offer: 'خلاط YouCan الذكي (عرض العائلة 3 قطع 🎁)', time: 'قبل 8 دقائق' },
+    { name: 'سناء من أكادير', offer: 'خلاط YouCan الذكي (عرض قطعتين 🔥)', time: 'قبل 12 دقيقة' }
+  ];
+
+  let purchaseIndex = 0;
+
+  function showRecentPurchase() {
+    if (!purchaseToast) return;
+    const item = livePurchases[purchaseIndex % livePurchases.length];
+    purchaseIndex++;
+
+    if (toastBuyer) toastBuyer.textContent = `اشترى ${item.name}`;
+    if (toastOffer) toastOffer.textContent = item.offer;
+    if (toastAgo) toastAgo.textContent = `${item.time} · تم الشحن 🚚`;
+
+    purchaseToast.classList.add('show');
+
+    setTimeout(() => {
+      purchaseToast.classList.remove('show');
+    }, 4500);
+  }
+
+  // First popup after 4 seconds, then every 16 seconds
+  setTimeout(showRecentPurchase, 4000);
+  setInterval(showRecentPurchase, 16000);
+
+  // ------------------------------------------------------------------------
+  // 7. Gallery Thumbnail Switcher
+  // ------------------------------------------------------------------------
+  const thumbBtns = document.querySelectorAll('.thumb-btn');
+  const canvas3DWrapper = document.getElementById('canvas-3d-wrapper');
+
+  thumbBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      thumbBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const imgVal = btn.getAttribute('data-img');
+      if (imgVal === '3d') {
+        // Show 3D Canvas
+        if (canvas) canvas.style.display = 'block';
+        const existingImg = canvas3DWrapper.querySelector('.preview-static-img');
+        if (existingImg) existingImg.remove();
+      } else {
+        // Show photo preview inside box
+        if (canvas) canvas.style.display = 'none';
+        let staticImg = canvas3DWrapper.querySelector('.preview-static-img');
+        if (!staticImg) {
+          staticImg = document.createElement('img');
+          staticImg.className = 'preview-static-img';
+          staticImg.style.width = '100%';
+          staticImg.style.height = '100%';
+          staticImg.style.objectFit = 'cover';
+          canvas3DWrapper.appendChild(staticImg);
+        }
+        staticImg.src = imgVal;
+      }
+    });
+  });
+
+});
+
+</script>
+</body>
+</html>
